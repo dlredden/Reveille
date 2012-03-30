@@ -1,0 +1,17 @@
+<div id="account_user_admin" style="padding-bottom:20px">
+	<h2 class="container-heading">All people with access to this account</h2>
+		
+	<% @account = Account.find(current_account) unless (@account != nil) -%>
+		
+	<div id="account_users_list">
+		<% for account_user in @account.account_users -%>
+			<% unless (account_user.user_id == current_user) -%>
+				<%= render(:partial => "account_users/details", :locals => {:account_user => account_user}) %>
+			<% end -%>
+		<% end -%>
+		<br>
+		<%= link_to_function("Invite a new user", "Effect.toggle('invite_new_account_user', 'slide')", :class => "action-link") unless (@account.account_users.size >= @account.plan.users_allowed) %>
+	
+		<%= render (:partial => "account_users/invite_user") %>
+	</div>
+</div>

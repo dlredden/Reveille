@@ -1,0 +1,25 @@
+class Mailer < ActionMailer::Base
+  @@from_email = "Reveille@wikidlabs.com"
+  
+  def invite_user(user, password, inviter)
+    recipients  "#{user.full_name} <#{user.email}>"
+    from        @@from_email
+    subject     "Invitation to Reveille for Backpack"
+    body        "You have been invited to Reveille for Backpack by #{inviter}. Your username is #{user.email} and your password is #{password}. Follow this link, http://wikidlabs.com/reveille/login, to login then go to the Settings tab and give us your Backpack Token to get started."
+  end
+  
+  def reset_passord(user, password)
+    recipients  "#{user.full_name} <#{user.email}>"
+    from        @@from_email
+    subject     "Reveille password reset"
+    body        "Your Reveille password has been reset. Your new password is <b>#{password}</b>. Follow this link, http://wikidlabs.com/reveille/login, to login then go to the Settings tab and change your Reveille password back to something easier to remember."
+  end
+  
+  def thanks_for_signing_up(user)
+    recipients  "#{user.full_name} <#{user.email}>"
+    from        @@from_email
+    subject     "Thank you for trying out Reveille"
+    body        "Thanks for signing up for Reveille. Hopefully you'll find it as useful as we do. Check out this page for help on how to use Reveille to automatically set reminders inside backpack for your calendar events."
+  end
+  
+end

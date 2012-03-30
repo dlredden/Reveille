@@ -1,0 +1,27 @@
+<div id="account_details">
+	<table>
+		<tbody>
+			<tr>
+				<h2 class="container-heading">Your Reveille account and plan settings</h2>
+			</tr>
+			<tr>
+				<th>Organization</th>
+				<td>
+					<% if (@account.org_name.nil? || @account.org_name == "") -%>
+						<span id="org_name_edit" title="Click to edit" class="in-place-edit">(Click to add)</span>
+					<% end -%>
+					<%= in_place_editor_field(:account, 'org_name', {:class => "in-place-edit"}, {:external_control => "org_name_edit"}) %>
+				</td>
+			</tr>
+			<tr>
+				<th>Backpack Sitename</th>
+				<td>http<%= (@account.ssl_required) ? "s" : "" %>://<i><u><%= in_place_editor_field(:account, "backpack_sitename", {:class => "in-place-edit"}) %></u></i>.backpackit.com</td>
+			</tr>
+			<tr>
+				<th>Current Plan</th>
+				<td><%= "#{@account.plan.name} (#{@account.plan.users_allowed.to_s} users updated every #{@account.plan.update_interval} seconds)" %></td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+</div>

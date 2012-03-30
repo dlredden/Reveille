@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  username: MyString
+  api_token: MyString
+  requires_ssl: false
+
+two:
+  user_id: 1
+  username: MyString
+  api_token: MyString
+  requires_ssl: false

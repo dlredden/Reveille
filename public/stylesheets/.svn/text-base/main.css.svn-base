@@ -1,0 +1,596 @@
+@import "reset.css";
+
+/*** UTILITY ***/
+
+.clear					{ clear:both; }
+
+
+
+/*HEADER AREA*/
+
+#mktg div.right
+{
+	float: right;
+}
+
+#mktg div.left
+{
+	float: left;
+}
+
+#mktg div.page-wrap
+{
+	margin: 0px auto;
+}
+
+#mktg div#nav
+{
+	width: 800px;
+}
+
+#mktg div#topbar
+{
+	background-color: #3B6ECF;
+	width: 100%;
+	padding: 5px 0px;
+}
+	
+#mktg div#topbar ul
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+	padding: 15px 15px;
+}
+
+#mktg div#topbar ul li
+{
+	display: inline;
+	margin-left: 20px;
+}
+
+#mktg div#topbar a
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+}
+
+#mktg div#topbar a:hover
+{
+	text-decoration: underline;
+}
+
+#mktg div#top
+{
+	width: 800px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#mktg h1#logo
+{ 
+	width: 145px;
+	height: 43px;
+	background: url(../images/reveille-logo-white.png) top left no-repeat;
+	text-indent: -9999px;
+	position: relative;
+	display: block;
+	margin-top: 2px;
+}
+
+#mktg div#top h2
+{
+	font-size: 2.1em;
+	font-weight: bold;
+	color: #333333;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#mktg div#top h3
+{
+	color: #00C543;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#mktg div#midbar
+{
+	width: 100%;
+	padding: 25px 0 0 0;
+}
+
+#mktg div#mid
+{
+	width: 800px;
+}
+
+#mktg div#mid div#desc
+{
+	width: 40%;
+	margin-bottom: 40px;
+}
+
+#mktg a.standard:link, #mktg a.standard:visited
+{
+	color: rgb(27, 74, 142);
+}
+
+#mktg div.features
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	padding-bottom: 20px;
+	line-height: 1.1em;
+}
+
+#mktg div.feature-img
+{
+	float: left;
+	padding: 0px 10px 40px 0px;
+}
+
+#mktg div.features h2
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#mktg div.feature-desc
+{
+	font-size: .8em;
+	font-weight: normal;
+}
+
+#mktg img.plans-link
+{
+	padding-top: 20px;
+}
+
+#mktg div.faq-wide
+{
+	color: #222222;
+	padding: 15px 15px 25px 15px;
+	font-size: 1.0em;
+	font-family: Georgia, serif;
+	line-height: 1.3em;
+	width: 400px;
+}
+
+#mktg div#howto img
+{
+	margin: -25px -25px 0 0;
+	height: 393px;
+	width: 420px;
+}
+
+#mktg div#integrations
+{
+	padding: 10px 25px;
+	margin: 0px 0px 25px 0px;
+	background: url(../images/integrations-bg.png) top left repeat-x;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #c0c0c0;
+}
+
+#mktg div#integrations h2
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+#mktg div#integrations img
+{
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+#mktg div#integrations-coming-soon
+{
+	background: url(../images/coming-soon.png) top left no-repeat;
+	width: 60%;
+	padding: 20px 0px 0px 50px;
+	border: solid 1px #d0d0d0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+}
+
+#mktg div#coming-soon
+{
+	padding: 20px 0px 20px 0px;
+}
+
+#mktg div#coming-soon ul
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+	padding-bottom: 15px;
+}
+
+#mktg div#coming-soon p
+{
+	color: rgb(207,173,107);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#mktg div#coming-soon a
+{
+	color: rgb(207,173,107);
+}
+
+#mktg div#coming-soon div#sub-request
+{
+	width: 360px;
+	font-size: 1.1em;
+}
+
+#mktg div#coming-soon div#sub-form
+{
+	width: 425px;
+	text-align: right;
+}
+
+#mktg div#coming-soon ul li
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+#mktg div#coming-soon input
+{
+	padding: 3px 3px 3px 3px;
+	font-size: 1.1em;
+	color: rgb(78,78,78);
+}
+
+#mktg input#mailinglist_email_address
+{
+	width: 305px;
+}
+
+#mktg p.coming-soon-pg
+{
+	float: right;
+	padding-right: 134px;
+	text-decoration: underline;
+}
+
+#mktg p#twitter-follow
+{
+	float: right;
+	text-align: right;
+}
+
+#mktg p#mailinglist-add-success
+{
+	color: white !important;
+	float: right;
+	text-align: right;
+}
+
+#mktg div#form_error
+{
+	width: 425px;
+	color: white;
+	font-size: 1.1em;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: -20px;
+	padding-top: 5px;
+}
+
+#mktg div#foot
+{
+	width: 800px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .9em;
+	text-decoration: none;
+	color: #a0a0a0;
+	border-top: solid 1px #a0a0a0;
+}
+
+#mktg div#foot div
+{
+	text-align: center;
+	padding-top: 20px;
+	line-height: 1.3em;
+}
+
+#mktg ul.inline-list
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+#mktg ul.inline-list li
+{
+	display: inline;
+	margin: 20px;
+}
+
+#mktg ul.inline-list a
+{
+	font-size: .9em;
+	color: #666666;
+	text-decoration: none;
+}
+
+#mktg ul.inline-list img
+{
+	margin-right: 5px;
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
+#mktg div#footer a
+{
+	color: #a0a0a0;
+}
+
+#mktg p.disclosure
+{
+	font-size: .8em;
+}
+
+#mktg div#faq
+{
+	width: 800px;
+	margin-bottom: 30px;
+}
+
+#mktg h2.faq-h2
+{
+	font-family: Georgia, serif;
+	font-size: 1.4em;
+	color: #222222;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#mktg div#faq div.column
+{
+	width: 250px;
+	font-family: Georgia, serif;
+	font-size: 1.0em;
+	line-height: 1.3em;
+	color: #222222;
+}
+
+#mktg h3.faq
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: rgb(27, 74, 142);
+	text-transform: uppercase;
+}
+
+#mktg div#why-build-reveille
+{
+	padding: 0px 25px 0px 25px;
+}
+
+#mktg p.quotation
+{
+	color: #888888;
+	font-size: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: italic;
+	line-height: 1.3em;
+	margin-bottom: 5px;
+}
+
+#mktg div#community-connection
+{
+	width: 600px;
+	text-align: center;
+	padding: 8px 0px;
+	background-color: #e0e0e0;
+	border: solid 1px #d0d0d0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+/**********************/
+/* Signup Page Styles */
+/**********************/
+
+div#signup-container
+{
+	width: 900px;
+	padding: 30px 0px 50px 0px;
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+div#signup-container h1#logo
+{ 
+	width: 145px;
+	height: 43px;
+	background: url(../images/reveille-logo-white.png) top left no-repeat;
+	text-indent: -9999px;
+	position: relative;
+	display: block;
+	top: -98px;
+	left: 0px;
+	margin-bottom: -58px;
+}
+
+div#signup-container h2
+{
+	color: rgb(27, 74, 142);
+	font-weight: bold;
+	font-size: 1.1em;
+	display: block;
+	padding-bottom: 10px;
+}
+
+div#signup-header
+{
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+div#signup-header h1
+{
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+div#signup-header h2
+{
+	font-size: 1.6em;
+	color: #777777;
+}
+
+table.signup
+{
+	margin-bottom: 20px;
+}
+
+table.signup tr
+{
+	padding-bottom: 10px;
+}
+
+table.signup th
+{
+	vertical-align: middle;
+	width: 110px;
+	font-size: .8em;
+	font-weight: normal;
+}
+
+table.signup td
+{
+	padding-left: 15px;
+	padding-bottom: 10px;
+	font-size: .9em;
+}
+
+.signup input
+{
+	font-size: 1.1em;
+	padding: 3px;
+	margin-top: 2px;
+	font-weight: bold;
+	width: 200px;
+}
+
+.signup input.api-input
+{
+	width: 325px;
+}
+
+div#backpack-acct-container
+{
+	margin-bottom: 20px;
+}
+
+div#signup-form-right h3
+{
+	font-size: .7em;
+	font-weight: normal;
+	color: #777777;
+	margin-bottom: 15px;
+}
+
+p.signup
+{
+	padding-bottom: 10px;
+}
+
+p.signup label
+{
+	font-size: .8em;
+}
+
+div#signup-form-left
+{
+	width: 400px;
+}
+
+div#signup-form-right
+{
+	width: 400px;
+}
+
+.plan-list
+{
+	font-family: Helvetica;
+	vertical-align: middle;
+	color: #333333;
+	padding: 20px 10px;
+	border: 1px solid #c0c0c0;
+	margin: 10px 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.plan-list h1
+{
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.plan-list h2
+{
+	padding: 0px !important;
+}
+
+.plan-list td
+{
+	padding-right: 20px;
+}
+
+h2.signup-step
+{
+	margin-top: 10px;
+}
+
+img.signup-step-img
+{
+	float: left;
+	margin-right: 10px;
+}
+
+p.plan-desc
+{
+	color: #777777;
+	width: 150px;
+}
+
+p.plan-desc strong
+{
+	color: #333333;
+}
+
+p.plan-name
+{
+	width: 120px;
+}
+
+p.footnote
+{
+	color: #777777;
+	font-size: .8em;
+}

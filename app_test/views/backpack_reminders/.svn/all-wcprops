@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/reveille/!svn/ver/1/trunk/app/views/backpack_reminders
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/reveille/!svn/ver/1/trunk/app/views/backpack_reminders/edit.html.erb
+END
+_display_event.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/reveille/!svn/ver/4/trunk/app/views/backpack_reminders/_display_event.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/reveille/!svn/ver/4/trunk/app/views/backpack_reminders/index.html.erb
+END
+_show_calendar.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/reveille/!svn/ver/4/trunk/app/views/backpack_reminders/_show_calendar.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/1/trunk/app/views/backpack_reminders/new.html.erb
+END
+_display_reminder.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/reveille/!svn/ver/4/trunk/app/views/backpack_reminders/_display_reminder.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/reveille/!svn/ver/1/trunk/app/views/backpack_reminders/show.html.erb
+END

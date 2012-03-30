@@ -1,0 +1,31 @@
+<div id="billing_details">
+	<h2 class="container-heading">Change or update your credit card</h2>
+	<% remote_form_for(:payment, @payment, :url => {:controller => "/payments", :action => "send_billing_update"}) do |f| %>
+	<table>
+		<tbody>
+			<tr>
+				<th>Name on Card</th>
+				<td><%= f.text_field(:name) %></td>
+			</tr>
+			<tr>
+				<th>Card Number</th>
+				<td><%= f.text_field(:number, :value => "") %></td>
+			</tr>
+			<tr>
+				<th>CVV Number</th>
+				<td><%= f.text_field(:cvv_number, :value => "") %></td>
+			</tr>
+			<tr>
+				<th>Expiration Date</th>
+				<td><%= select_tag("payment[exp_month]", options_from_collection_for_select(@ccmonths,'value2','value', Date.today.month.to_s)) %>
+			<%= collection_select(:payment, :exp_year, @yearsCollection, :id, :value) %></td>
+			</tr>
+		</tbody>
+	</table>
+	<%= f.submit("Update my credit card") %> or
+		<%= link_to_remote("Cancel",
+			:url => {:controller => "/payments", :action => "send_billing_update"},
+			:html => {:class => "action-link"}, :with => "'commit=cancel'" ) %>
+	<% end %>
+	<br>
+</div>

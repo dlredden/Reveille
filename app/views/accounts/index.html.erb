@@ -1,0 +1,28 @@
+<% @page_title = "My Account Settings" -%>
+
+<%= render(:partial => "shared/navbar") %>
+
+<div class="main-app-container" id="account-container">
+	<div class="container-heading">
+		<h1 class="container-heading">Account Settings</h1>
+		<span class="instructions">Click on a field to edit it's value.</span>
+		
+	</div>
+	<div class="container-wrapper">
+		<div class="acct-section-wrapper">
+			<%= render(:partial => 'users/details', :locals => {:user => @user, :account_user => @account_user}) %>
+		
+			<%= render(:partial => "users/change_password", :locals => {:user => @user}) %>
+		</div>
+		<div class="acct-section-wrapper">
+			<%= render(:partial => "accounts/details", :locals => {:account => @account}) %>
+			<%= render(:partial => "cancel", :locals => {:account => @account}) if (@account_user.is_admin()) %>
+		</div>
+		<div class="acct-section-wrapper">
+			<%= render(:partial => 'payments/billing_details', :locals => {:account => @account}) if (@account_user.is_admin()) %>
+		</div>
+			<%= render(:partial => 'accounts/user_admin', :locals => {:user => @user, :account => @account}) if (@account_user.is_admin()) %>
+	</div>
+</div>
+
+<%= render :partial => 'shared/appfooter' %>

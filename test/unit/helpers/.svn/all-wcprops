@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers
+END
+accounts_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/accounts_helper_test.rb
+END
+mailinglists_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/reveille/!svn/ver/3/trunk/test/unit/helpers/mailinglists_helper_test.rb
+END
+users_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/users_helper_test.rb
+END
+roles_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/roles_helper_test.rb
+END
+backpack_reminders_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/backpack_reminders_helper_test.rb
+END
+home_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/home_helper_test.rb
+END
+plan_limits_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/plan_limits_helper_test.rb
+END
+account_users_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/account_users_helper_test.rb
+END
+plans_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/plans_helper_test.rb
+END
+backpack_accounts_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/reveille/!svn/ver/1/trunk/test/unit/helpers/backpack_accounts_helper_test.rb
+END

@@ -1,0 +1,2 @@
+class AccountCouponcodesController < ApplicationController
+end

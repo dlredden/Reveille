@@ -1,0 +1,5 @@
+if (@updated)
+  page.replace("billing_details", :partial => "billing_details")
+else
+  page.replace("billing_details", :partial => "edit_billing_details")
+end

@@ -1,0 +1,16 @@
+<%= "<p class=\"notice\">#{flash[:notice]}</p>" if flash[:notice] %>
+<% form_tag(:action => 'login') do -%>	
+	<p>Email address
+	<br>
+		<%= text_field_tag('email', params[:email]) %>
+	</p>
+	<p>Password
+	<br>
+		<%= password_field_tag('password') %>
+	</p>
+	<%= submit_tag("Log in") %>
+<% end -%>
+<div id="login-help">
+	<b>Help:</b> <%= link_to_remote("I forgot my password", :url=> {:controller => "users", :action=> "reset_password_form"}) %>
+</div>
+<div class="clear"></div>

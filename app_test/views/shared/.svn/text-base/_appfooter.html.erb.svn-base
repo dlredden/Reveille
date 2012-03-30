@@ -1,0 +1,12 @@
+<div id="app-footer">
+	<p>
+		<%= link_to("Get Help", "http://getsatisfaction.com/wikidlabs") %>
+		|
+		<%= link_to("Blog", "http://wikidlabs.com/blog") %>
+		|
+		<%= link_to("Support Forums", "http://getsatisfaction.com/wikidlabs") %>
+	</p>
+	<p>
+		Reveille is a handcrafted product of <%= link_to("Wikid Labs", "http://wikidlabs.com") %>
+	</p>
+</div>

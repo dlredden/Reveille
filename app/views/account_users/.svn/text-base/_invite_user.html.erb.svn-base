@@ -1,0 +1,27 @@
+<div id="invite_new_account_user" style="display: none; padding-top: 10px;">
+	<span class="instructions">Enter the information for the user you would like to invite to your account.</h2>
+	<br><br>
+	<div id="invite_user_status"></div>
+	<% form_remote_tag(:url => { :controller => "/account_users", :action => "invite_user"}) do %>
+		<table>
+			<tbody>
+				<tr>
+					<th>First Name</th>
+					<td><%= text_field_tag(:first_name) %></td>
+				</tr>
+				<tr>
+					<th>Last Name</th>
+					<td><%= text_field_tag(:last_name) %></td>
+				</tr>
+				<tr>
+					<th>Email Address</th>
+					<td><%= text_field_tag(:email) %></td>
+				</tr>
+			</tbody>
+		</table>
+		<span class="instructions">After you click the invite button, we will send an invitation message to the email address you entered above.  It will contain the login information and a link to login to this Reveille account.</span>
+		<br>
+		<br>
+		<%= submit_tag 'Invite this user' %> or <%= link_to_function("cancel", "Effect.toggle('invite_new_account_user', 'slide')", :class => "action-link") %>
+	<% end %>
+</div>

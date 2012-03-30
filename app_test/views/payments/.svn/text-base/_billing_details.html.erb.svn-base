@@ -1,0 +1,30 @@
+<%
+	if (!@account)
+		@account = Account.find(current_account)
+	end
+%>
+<div id="billing_details">
+
+	<h2 class="container-heading">Your account billing details</h2>
+	<table>
+		<tbody>
+			<tr>
+				<th>Next Billing</th>
+				<td><%= "$#{@account.bill_amount.to_s} will be billed on #{@account.next_bill_date.strftime('%d/%m/%Y')}" %> <%= link_to_remote("(Change Card)", :url => {:controller => "/payments", :action => "update_billing"} )%></td>
+			</tr>
+			<tr>
+				<th>Name on Card</th>
+				<td><%= @account.payment.name %></td>
+			</tr>
+			<tr>
+				<th>Card Number</th>
+				<td><%= @account.payment.last_four_digits %></td>
+			</tr>
+			<tr>
+				<th>Expiration Date</th>
+				<td><%= "#{@account.payment.exp_month.to_s}/#{@account.payment.exp_year.to_s}" %></td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+</div>

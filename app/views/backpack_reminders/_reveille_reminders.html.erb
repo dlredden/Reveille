@@ -1,0 +1,9 @@
+<div id=<%= "'" + calendar["id"].to_s + "'" %>>
+	<h2>Reminders for calendar <i><%= calendar["name"] %></i></h2>
+	<% for reminder in calendar["reminders"] %>
+		<div class="reveille_reminder">
+			<%= reminder.content %>
+			<%= reminder.remind_at.strftime('%d/%m/%Y %H:%M:%S') %>
+		</div>
+	<% end %>
+</div>

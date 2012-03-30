@@ -1,0 +1,107 @@
+<div id="top" class="page-wrap">
+	<h2>All Of Your Important Events In One Place!</h2>
+	<h3>spend less time managing your schedule, and more time getting things done.</h3>
+</div>
+
+<div id="midbar">
+	<div id="mid" class="page-wrap">
+		<div id="desc" class="left">
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("calendar.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>See all your schedules in one place</h2>
+					Got schedules stored in different place online? Now you'll have one place to go to see all your important events and to-do's.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("reminder.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Better than a string on your finger</h2>
+					Get reminders for all your important events and tasks, exactly when you want them.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("automated.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>New Features and Automation</h2>
+					We work to find ways to reduce time spent managing your schedule. Reminder creation using hashtags for Backpack users is just one example.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("rss.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Better than calendar subscriptions</h2>
+					Calendar subscriptions are read-only. We break down the barrier, allowing you interact with your calendars by integrating directly via API's. 
+				</div>
+				<div class="clear"></div>
+			</div>
+			<%= link_to(image_tag("plans-pricing.png", :class => "plans-link"), "reveille/signup") %>
+		</div>
+		<div id="howto" class="right">
+			<%= image_tag("howto.png") %>
+			<p class="customer-promise">"We strive to provide great service and value. It would be our pleasure to do the same for you!"</p>
+		</div>
+		<div class="clear"></div>
+		<div id="integrations">
+			<div class="left">
+				<h2>Reveille Integrates With ...</h2>
+				<div>
+					<%= image_tag("logo_backpack-full.png") %>
+				</div>
+			</div>
+			<div class="right" id="integrations-coming-soon">
+			<%= image_tag("logo_basecamp-full-faded.png") %><%= image_tag("logo_highrise-full-faded.png") %><br><%= image_tag("google-cal-logo-faded.png") %>
+			</div>
+			<div class="clear"></div>
+		</div>
+		</div>
+</div>
+
+<div id="faq-bar">
+	<div id="faq" class="page-wrap">
+		<div id="what-is-backpack" class="left column">
+			<h3>Benefits of time management</h3>
+			<p class="quotation">"Time is what we want most, but what we use worst."<br>-William Penn</p>
+			<p>Knowing how we spend our time helps make us more productive, and lets us know when we need to find balance. We hope Reveille will help you stop wasting time managing your schedule, so you can spend more time investing it in yourself.</p>
+		</div>
+		<div id="why-build-reveille" class="left column">
+			<h3>What inspired Reveille?</h3>
+			<p>We use 37signal's Backpack and Basecamp to keep our schedules and projects organized, and we wanted a simple way to see all of our calendar and task data in one place.  So, we set out to solve our own problem.  We thought maybe there were other teams out there with the same problem so we decided to make Reveille available to everyone.</p>
+		</div>
+		<div id="how-much-cost" class="left column">
+			<h3>Other Notable Features</h3>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("secure.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Security</h2>
+					Keeping your data secure is very important to us. Every account features encrypted connections to your browser.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("internet-cloud.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Web Based</h2>
+					You can see your schedule from any standard browser or mobile device.
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>

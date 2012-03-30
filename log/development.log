@@ -1,0 +1,1694 @@
+# Logfile created on Tue Feb 28 21:39:14 +0000 2012Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+  [4;36;1mSQL (8.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (56.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-02-28 21:39:16) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 370ms (View: 370, DB: 65) | 200 OK [http://www.wikidlabs.com/reveille/]
+Connected to NewRelic Service at collector-8.newrelic.com:80
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (30.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 63.167.123.130 at 2012-02-28 21:39:35) [GET]
+  [4;36;1mSelectvalue Load (920.3ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSelectvalue Load (371.8ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;36;1mUser Columns (1261.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mAccount Columns (24.8ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mPayment Columns (8.9ms)[0m   [0;1mSHOW FIELDS FROM `payments`[0m
+  [4;35;1mAccountUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mPlan Load (471.7ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;35;1mPlan Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (28.0ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.6ms)
+Completed in 4032ms (View: 166, DB: 3092) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;36;1mSQL (53.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-02-28 21:39:45) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 11ms (View: 11, DB: 53) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (153.8ms)[0m   [0;1mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSQL (50.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-02-28 21:41:21) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (23.8ms)
+Completed in 102ms (View: 101, DB: 50) | 200 OK [http://www.wikidlabs.com/reveille/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-02-28 21:41:23) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"W0WV/aOUG79M/1ERICP4tDZjr5EtzGSWvoGe8OCG5co=", "password"=>"alicia234", "email"=>"dlredden"}
+  [4;35;1mUser Load (358.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'dlredden') LIMIT 1[0m
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (2.5ms)
+Completed in 375ms (View: 8, DB: 358) | 200 OK [http://www.wikidlabs.com/reveille/users/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-02-28 21:41:29) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"W0WV/aOUG79M/1ERICP4tDZjr5EtzGSWvoGe8OCG5co=", "password"=>"alicia11", "email"=>"dlredden"}
+  [4;36;1mUser Load (37.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'dlredden') LIMIT 1[0m
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (2.6ms)
+Completed in 53ms (View: 8, DB: 37) | 200 OK [http://www.wikidlabs.com/reveille/users/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#reset_password_form (for 63.167.123.130 at 2012-02-28 21:41:35) [POST]
+  Parameters: {"authenticity_token"=>"W0WV/aOUG79M/1ERICP4tDZjr5EtzGSWvoGe8OCG5co=", "_"=>""}
+Rendering users/reset_password_form
+Rendered users/_reset_password_form (16.5ms)
+Completed in 109ms (View: 108, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille/users/reset_password_form]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#reset_password (for 63.167.123.130 at 2012-02-28 21:41:44) [POST]
+  Parameters: {"commit"=>"Reset Password", "authenticity_token"=>"W0WV/aOUG79M/1ERICP4tDZjr5EtzGSWvoGe8OCG5co=", "_"=>"", "email"=>"dl@wikidlabs.com"}
+  [4;35;1mUser Columns (102.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (39.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'dl@wikidlabs.com') LIMIT 1[0m
+WARN: Password reset email address is invalid, dl@wikidlabs.com
+Rendering users/reset_password
+Rendered users/_login_form (2.9ms)
+Completed in 184ms (View: 32, DB: 142) | 200 OK [http://www.wikidlabs.com/reveille/users/reset_password]
+  [4;35;1mSQL (33.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-02-28 21:42:13) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 57ms (View: 56, DB: 33) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-02-28 21:43:40) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (26.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (156.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 66.249.66.15 at 2012-02-29 15:11:54) [GET]
+
+ActionController::RoutingError (No route matches "/swfs/" with {:method=>:get}):
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/newrelic_rpm-3.3.2/lib/new_relic/rack/browser_monitoring.rb:23:in `call'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/newrelic_rpm-3.3.2/lib/new_relic/rack/developer_mode.rb:24:in `call'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/helper-scripts/passenger-spawn-server:99
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (70.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (108.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 180.76.5.90 at 2012-02-29 22:00:16) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 1302ms (View: 1269, DB: 179) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (15.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (56.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.72.9 at 2012-03-01 08:02:34) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 483ms (View: 443, DB: 71) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (79.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (139.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 66.249.72.9 at 2012-03-01 08:23:56) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (132.8ms)
+Completed in 1125ms (View: 722, DB: 219) | 200 OK [http://wikidlabs.com/reveille/login]
+  [4;35;1mSQL (28.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (10.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 66.249.72.9 at 2012-03-01 08:34:02) [GET]
+  [4;35;1mSelectvalue Load (193.6ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (0.1ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (659.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (37.2ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (62.4ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (58.2ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (0.2ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (20.7ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (108.4ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.8ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.6ms)
+Completed in 3235ms (View: 488, DB: 1071) | 200 OK [http://wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (8.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (24.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 66.249.72.9 at 2012-03-01 08:42:53) [GET]
+  Parameters: {"id"=>"reset_password_form"}
+Redirected to http://wikidlabs.com/reveille/login
+Filter chain halted as [:authorize_access] rendered_or_redirected.
+Completed in 117ms (DB: 33) | 302 Found [http://wikidlabs.com/reveille/users/reset_password_form]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 66.249.72.9 at 2012-03-01 08:42:55) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (2.7ms)
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://wikidlabs.com/reveille/login]
+  [4;35;1mSQL (110.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (217.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 50.16.145.206 at 2012-03-01 09:42:51) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 3819ms (View: 3818, DB: 328) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (18.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (10.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 50.16.145.206 at 2012-03-01 09:43:09) [GET]
+  [4;35;1mSelectvalue Load (113.5ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (0.2ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (730.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (7.2ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (0.2ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (75.5ms)
+Rendered plans/_show_plan (1.4ms)
+Rendered plans/_show_plan (20.5ms)
+Rendered plans/_show_plan (7.9ms)
+Rendered plans/_show_plan (47.6ms)
+Completed in 3322ms (View: 777, DB: 885) | 200 OK [http://wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 50.16.145.206 at 2012-03-01 09:43:14) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (173.2ms)
+Completed in 367ms (View: 348, DB: 0) | 200 OK [http://wikidlabs.com/reveille/login]
+  [4;35;1mSQL (13.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (64.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 65.52.108.24 at 2012-03-01 11:02:22) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 4813ms (View: 4584, DB: 78) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (32.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (86.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 180.76.5.151 at 2012-03-01 11:48:01) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 731ms (View: 723, DB: 119) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (86.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (76.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 86.149.80.40 at 2012-03-01 14:17:31) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 984ms (View: 974, DB: 163) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 86.149.80.40 at 2012-03-01 14:17:47) [GET]
+  [4;35;1mSelectvalue Load (120.9ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (0.3ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (721.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (19.2ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (32.2ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (14.9ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (85.5ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (3.9ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (199.9ms)
+Rendered plans/_show_plan (6.6ms)
+Rendered plans/_show_plan (13.0ms)
+Rendered plans/_show_plan (3.6ms)
+Rendered plans/_show_plan (20.6ms)
+Completed in 5053ms (View: 1279, DB: 999) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (139.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (30.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 123.125.71.46 at 2012-03-01 17:22:02) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 733ms (View: 732, DB: 170) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (22.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (126.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 108.59.8.70 at 2012-03-02 19:06:34) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 529ms (View: 515, DB: 149) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (42.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (225.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 108.59.8.70 at 2012-03-02 19:09:16) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 533ms (View: 525, DB: 268) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (22.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (53.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 184.73.130.1 at 2012-03-02 19:47:56) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 239ms (View: 239, DB: 76) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (131.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (46.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.236.120.253 at 2012-03-02 21:05:25) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 268ms (View: 223, DB: 179) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (61.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (20.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 66.236.120.253 at 2012-03-02 21:07:31) [GET]
+  [4;35;1mSelectvalue Load (379.4ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (0.2ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (2403.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (88.7ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (73.9ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (131.6ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (30.7ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (36.2ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (321.2ms)
+Rendered plans/_show_plan (21.1ms)
+Rendered plans/_show_plan (4.2ms)
+Rendered plans/_show_plan (26.3ms)
+Rendered plans/_show_plan (78.6ms)
+Completed in 9718ms (View: 2241, DB: 3226) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (30.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (55.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 184.72.154.77 at 2012-03-02 22:06:25) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 453ms (View: 452, DB: 86) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 180.76.5.92 at 2012-03-02 22:07:50) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 1613ms (View: 1612, DB: 0) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (38.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (83.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 213.186.127.11 at 2012-03-03 05:38:27) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 437ms (View: 414, DB: 123) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (29.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (70.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 213.186.127.11 at 2012-03-03 08:30:14) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 547ms (View: 547, DB: 100) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (27.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (100.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 180.76.5.110 at 2012-03-04 15:04:21) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 409ms (View: 408, DB: 128) | 200 OK [http://wikidlabs.com/reveille/]
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+  [4;36;1mSQL (13.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (57.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 173.242.125.206 at 2012-03-04 17:45:54) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 244ms (View: 244, DB: 71) | 200 OK [http://www.wikidlabs.com/reveille]
+Connected to NewRelic Service at collector-8.newrelic.com:80
+  [4;36;1mSQL (71.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 180.76.5.62 at 2012-03-04 18:02:54) [GET]
+  [4;36;1mSelectvalue Load (148.1ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSelectvalue Load (0.1ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;36;1mUser Columns (347.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mAccount Columns (69.1ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mPayment Columns (12.7ms)[0m   [0;1mSHOW FIELDS FROM `payments`[0m
+  [4;35;1mAccountUser Columns (31.5ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mPlan Load (0.2ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;35;1mPlan Columns (43.2ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (72.1ms)
+Rendered plans/_show_plan (0.8ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.9ms)
+Rendered plans/_show_plan (0.7ms)
+Completed in 1792ms (View: 168, DB: 724) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;36;1mSQL (15.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (69.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.71.204 at 2012-03-05 10:34:57) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 485ms (View: 484, DB: 85) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (190.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (94.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 119.63.196.92 at 2012-03-06 09:48:55) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 808ms (View: 784, DB: 285) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (126.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (324.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.71.17 at 2012-03-06 10:44:09) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 784ms (View: 784, DB: 451) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (28.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (147.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 180.76.5.67 at 2012-03-06 11:28:06) [GET]
+  [4;36;1mSelectvalue Load (1185.1ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSelectvalue Load (1485.8ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;36;1mUser Columns (1383.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mAccount Columns (71.8ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mPayment Columns (70.6ms)[0m   [0;1mSHOW FIELDS FROM `payments`[0m
+  [4;35;1mAccountUser Columns (104.5ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mPlan Load (53.8ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;35;1mPlan Columns (26.4ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (289.6ms)
+Rendered plans/_show_plan (21.1ms)
+Rendered plans/_show_plan (13.0ms)
+Rendered plans/_show_plan (7.2ms)
+Rendered plans/_show_plan (47.1ms)
+Completed in 11824ms (View: 1805, DB: 4558) | 200 OK [http://wikidlabs.com/reveille/signup]
+  [4;36;1mSQL (39.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (140.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (902.9ms)[0m   [0;1mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSQL (27.5ms)[0m   [0mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;36;1mSQL (138.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (79.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 65.52.104.26 at 2012-03-07 00:11:54) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 763ms (View: 752, DB: 218) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (39.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 208.115.113.85 at 2012-03-07 00:14:59) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 352ms (View: 351, DB: 40) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (1029.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (496.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 119.63.196.122 at 2012-03-07 05:11:44) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 5295ms (View: 5043, DB: 1526) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (34.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (72.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 199.87.253.120 at 2012-03-07 18:57:24) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 2140ms (View: 2065, DB: 107) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (48.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (193.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 199.87.252.115 at 2012-03-09 01:44:39) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 38947ms (View: 38676, DB: 242) | 200 OK [http://wikidlabs.com/reveille/]
+  [4;36;1mSQL (16.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (95.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 193.47.80.42 at 2012-03-09 18:40:09) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 5418ms (View: 5086, DB: 112) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (454.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1253.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 69.58.178.58 at 2012-03-11 07:24:53) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 2666ms (View: 2597, DB: 1708) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (25.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (84.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 69.58.178.58 at 2012-03-11 07:31:27) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 906ms (View: 889, DB: 110) | 200 OK [http://www.wikidlabs.com/reveille]
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+  [4;36;1mSQL (185.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (86.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 207.46.13.146 at 2012-03-12 07:12:27) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 560ms (View: 559, DB: 272) | 200 OK [http://www.wikidlabs.com/reveille]
+Connected to NewRelic Service at collector-8.newrelic.com:80
+  [4;36;1mSQL (179.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (6.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 207.46.13.146 at 2012-03-12 07:13:22) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 106ms (View: 91, DB: 187) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (319.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (49.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 216.10.144.10 at 2012-03-12 19:13:20) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 525ms (View: 506, DB: 369) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (9.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 216.10.144.10 at 2012-03-12 19:13:26) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 109ms (View: 109, DB: 10) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (282.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (69.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 148.109.1.11 at 2012-03-13 15:12:15) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 1466ms (View: 1455, DB: 352) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (192.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 213.186.127.11 at 2012-03-14 10:19:25) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 179ms (View: 179, DB: 196) | 200 OK [http://wikidlabs.com/reveille/]
+  [4;36;1mSQL (601.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (711.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 64.13.232.44 at 2012-03-14 21:49:39) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 419ms (View: 282, DB: 1313) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (110.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (25.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 64.13.232.44 at 2012-03-14 21:50:58) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 167ms (View: 167, DB: 136) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (296.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (169.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 64.13.232.44 at 2012-03-14 21:51:03) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (345.4ms)
+Completed in 17186ms (View: 10291, DB: 466) | 200 OK [http://www.wikidlabs.com/reveille/login]
+  [4;36;1mSQL (84.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (25.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 193.47.80.42 at 2012-03-15 18:36:41) [GET]
+  [4;36;1mSelectvalue Load (671.6ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSelectvalue Load (77.9ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;36;1mUser Columns (1062.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mAccount Columns (323.6ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mPayment Columns (688.6ms)[0m   [0;1mSHOW FIELDS FROM `payments`[0m
+  [4;35;1mAccountUser Columns (541.2ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mPlan Load (0.9ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;35;1mPlan Columns (48.3ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (182.9ms)
+Rendered plans/_show_plan (0.8ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.8ms)
+Completed in 16841ms (View: 844, DB: 3524) | 200 OK [http://wikidlabs.com/reveille/signup]
+  [4;36;1mSQL (21.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (170.6ms)[0m   [0;1mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSQL (1367.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3386.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 213.186.127.11 at 2012-03-15 20:19:34) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (134.9ms)
+Completed in 1364ms (View: 921, DB: 4754) | 200 OK [http://www.wikidlabs.com/reveille/login]
+  [4;35;1mSQL (1855.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2081.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 173.192.34.95 at 2012-03-16 00:10:17) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 794ms (View: 766, DB: 3937) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (325.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (109.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 173.192.34.95 at 2012-03-16 00:11:57) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 243ms (View: 243, DB: 435) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (480.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (73.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 173.192.34.95 at 2012-03-16 00:12:01) [GET]
+  [4;35;1mSelectvalue Load (286.3ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (0.1ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (1711.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (33.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (44.4ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (90.7ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (182.3ms)
+Rendered plans/_show_plan (0.8ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.9ms)
+Completed in 5696ms (View: 945, DB: 2721) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (104.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 199.87.252.115 at 2012-03-16 08:05:23) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 116ms (View: 116, DB: 108) | 200 OK [http://wikidlabs.com/reveille/]
+  [4;35;1mSQL (74.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (22.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 92.243.24.232 at 2012-03-16 21:38:24) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 264ms (View: 263, DB: 97) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (1447.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1252.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 92.243.24.232 at 2012-03-16 21:39:44) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 707ms (View: 706, DB: 2700) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (1456.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2212.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 92.243.24.232 at 2012-03-16 21:40:32) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (194.7ms)
+Completed in 1300ms (View: 862, DB: 3669) | 200 OK [http://www.wikidlabs.com/reveille/login]
+  [4;35;1mSQL (1903.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1836.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 92.243.24.232 at 2012-03-16 21:40:49) [GET]
+  [4;35;1mSelectvalue Load (1124.2ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (495.6ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (5650.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (5302.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (5453.2ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (4278.7ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (566.4ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (6453.2ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (7539.4ms)
+Rendered plans/_show_plan (9.2ms)
+Rendered plans/_show_plan (0.8ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (1017.0ms)
+Completed in 39418ms (View: 3052, DB: 33064) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (1763.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1180.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (4504.9ms)[0m   [0mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSQL (4150.4ms)[0m   [0;1mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mSQL (3580.4ms)[0m   [0mEXPLAIN SELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+  [4;36;1mSQL (224.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 114.45.57.107 at 2012-03-16 22:30:16) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 188ms (View: 168, DB: 227) | 200 OK [http://wikidlabs.com/reveille/]
+  [4;36;1mSQL (286.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (121.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 199.87.253.120 at 2012-03-17 09:25:53) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 351ms (View: 351, DB: 408) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (191.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (86.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 100.43.83.156 at 2012-03-17 09:49:37) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 240ms (View: 240, DB: 277) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (75.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 207.46.13.97 at 2012-03-17 13:35:02) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 135ms (View: 135, DB: 79) | 200 OK [http://www.wikidlabs.com/reveille]
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+  [4;36;1mSQL (35.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (322.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 38.100.21.22 at 2012-03-21 15:34:18) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 3639ms (View: 3591, DB: 358) | 200 OK [http://www.wikidlabs.com/reveille/]
+Connected to NewRelic Service at collector-8.newrelic.com:80
+  [4;36;1mSQL (36.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (92.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 213.186.127.11 at 2012-03-21 20:26:11) [GET]
+  [4;36;1mSelectvalue Load (1279.1ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSelectvalue Load (0.2ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;36;1mUser Columns (3726.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mAccount Columns (2715.2ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mPayment Columns (3648.6ms)[0m   [0;1mSHOW FIELDS FROM `payments`[0m
+  [4;35;1mAccountUser Columns (851.2ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mPlan Load (54.5ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;35;1mPlan Columns (273.7ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (492.0ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (1.1ms)
+Rendered plans/_show_plan (0.7ms)
+Completed in 30880ms (View: 1883, DB: 12678) | 200 OK [http://www.wikidlabs.com/reveille/signup]
+  [4;36;1mSQL (2301.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2538.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (5187.3ms)[0m   [0;1mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;35;1mSQL (810.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1767.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 213.186.127.11 at 2012-03-21 23:03:25) [GET]
+  [4;35;1mSelectvalue Load (884.4ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (739.6ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (1393.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (1082.2ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (2816.2ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (3562.7ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (499.8ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (5395.2ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (5826.6ms)
+Rendered plans/_show_plan (0.9ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.7ms)
+Completed in 28327ms (View: 1701, DB: 18952) | 200 OK [http://wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (399.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (371.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1041.8ms)[0m   [0mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSQL (1105.3ms)[0m   [0;1mEXPLAIN SELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mSQL (2089.7ms)[0m   [0mEXPLAIN SELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+  [4;36;1mSQL (17.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 50.112.40.15 at 2012-03-21 23:07:55) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 54ms (View: 53, DB: 21) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (15.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (97.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 46.4.100.138 at 2012-03-22 08:05:02) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 249ms (View: 231, DB: 113) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (55.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (64.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.66.175 at 2012-03-22 11:42:38) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 278ms (View: 183, DB: 120) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (53.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 208.115.113.85 at 2012-03-22 12:34:29) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 203ms (View: 202, DB: 56) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (6595.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (808.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 23.20.117.235 at 2012-03-22 16:31:40) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 6405ms (View: 6131, DB: 7404) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (617.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (89.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 213.186.127.11 at 2012-03-22 18:56:09) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 200ms (View: 184, DB: 707) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (54.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 213.186.127.11 at 2012-03-22 21:33:19) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (48.4ms)
+Completed in 351ms (View: 314, DB: 57) | 200 OK [http://wikidlabs.com/reveille/login]
+  [4;36;1mSQL (172.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (67.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 180.76.5.147 at 2012-03-22 22:57:43) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 107ms (View: 104, DB: 241) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (189.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.66.149 at 2012-03-23 01:40:58) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 289ms (View: 289, DB: 193) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (594.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (276.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 180.76.6.21 at 2012-03-23 07:42:52) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 1216ms (View: 1205, DB: 871) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (6.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 123.125.71.33 at 2012-03-23 20:37:02) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 68ms (View: 66, DB: 37) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (294.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (130.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 119.63.196.59 at 2012-03-23 21:38:41) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 414ms (View: 370, DB: 424) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;36;1mSQL (960.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1271.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 193.47.80.42 at 2012-03-24 23:43:13) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 369ms (View: 368, DB: 2232) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (451.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (128.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 208.115.113.85 at 2012-03-25 03:01:11) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (3.2ms)
+Completed in 261ms (View: 204, DB: 580) | 200 OK [http://wikidlabs.com/reveille/login]
+  [4;36;1mSQL (531.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (113.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 173.242.125.196 at 2012-03-25 05:27:12) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 247ms (View: 246, DB: 645) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (74.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (12.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 173.242.125.196 at 2012-03-25 05:35:28) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 89ms (View: 88, DB: 88) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (69.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (11.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.66.175 at 2012-03-25 08:37:16) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 114ms (View: 114, DB: 81) | 200 OK [http://wikidlabs.com/reveille]
+  [4;36;1mSQL (8.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (89.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 38.101.148.126 at 2012-03-25 11:56:34) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 130ms (View: 130, DB: 98) | 200 OK [http://www.wikidlabs.com/reveille]
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-03-29 18:59:31) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 119ms (View: 119, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille]
+Connected to NewRelic Service at collector-8.newrelic.com:80
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-03-29 20:44:55) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-03-29 20:44:57) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (13.9ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-03-29 20:45:15) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"+fsaJz72q9so4FWLxKF50Zvz71PK46qyzKJqai75e0E=", "password"=>"alicia234", "email"=>"dlredden@odeit.com"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`email` = 'dlredden@odeit.com') LIMIT 1[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccountUser Load (0.7ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7) LIMIT 1[0m
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Redirected to http://www.wikidlabs.com/reveille/login
+Completed in 510ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/users/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-03-29 20:45:16) [GET]
+Redirected to http://www.wikidlabs.com/reveille/reminders
+Completed in 1ms (DB: 0) | 302 Found [http://www.wikidlabs.com/reveille/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:45:16) [GET]
+  [4;36;1mAccountUser Load (0.6ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;35;1mAccountUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mAccount Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 33ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:45:16) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.5ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (3.8ms)
+  [4;36;1mAccountUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (39.4ms)
+Rendered users/_change_password (11.3ms)
+  [4;35;1mPlan Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.3ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (24.9ms)
+Rendered shared/_appfooter (2.0ms)
+Completed in 259ms (View: 228, DB: 6) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#set_user_email (for 63.167.123.130 at 2012-03-29 20:48:53) [POST]
+  Parameters: {"authenticity_token"=>"+fsaJz72q9so4FWLxKF50Zvz71PK46qyzKJqai75e0E=", "id"=>"7", "value"=>"dl@wikidlabs.com", "_"=>"", "editorId"=>"user_email_7_in_place_editor"}
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;36;1mAccountUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mAccount Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 22ms (DB: 2) | 302 Found [http://www.wikidlabs.com/reveille/users/set_user_email/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:48:53) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;35;1mAccount Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mAccountUser Load (0.1ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.5ms)
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (24.7ms)
+Rendered users/_change_password (2.4ms)
+  [4;36;1mPlan Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+  [4;35;1mPlan Load (0.1ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (12.7ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 166ms (View: 47, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-03-29 20:49:00) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-03-29 20:49:02) [GET]
+Redirected to http://www.wikidlabs.com/reveille/reminders
+Completed in 1ms (DB: 0) | 302 Found [http://www.wikidlabs.com/reveille/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:49:02) [GET]
+  [4;36;1mAccountUser Load (0.3ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mAccount Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 22ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:49:02) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.1ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.6ms)
+  [4;36;1mAccountUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (25.3ms)
+Rendered users/_change_password (2.5ms)
+  [4;35;1mPlan Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.2ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (12.1ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 75ms (View: 47, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#set_user_email (for 63.167.123.130 at 2012-03-29 20:49:25) [POST]
+  Parameters: {"authenticity_token"=>"+fsaJz72q9so4FWLxKF50Zvz71PK46qyzKJqai75e0E=", "id"=>"7", "value"=>"dl@wikidlabs.com", "_"=>"", "editorId"=>"user_email_7_in_place_editor"}
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;36;1mAccountUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mAccount Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 21ms (DB: 2) | 302 Found [http://www.wikidlabs.com/reveille/users/set_user_email/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:49:25) [GET]
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;35;1mAccount Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.5ms)
+  [4;35;1mAccountUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (24.6ms)
+Rendered users/_change_password (2.6ms)
+  [4;36;1mPlan Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+  [4;35;1mPlan Load (0.2ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (13.0ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 172ms (View: 48, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:50:56) [GET]
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.1ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.5ms)
+  [4;36;1mAccountUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (24.9ms)
+Rendered users/_change_password (2.4ms)
+  [4;35;1mPlan Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.1ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.5ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 75ms (View: 46, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#set_account_org_name (for 63.167.123.130 at 2012-03-29 20:51:12) [POST]
+  Parameters: {"authenticity_token"=>"+fsaJz72q9so4FWLxKF50Zvz71PK46qyzKJqai75e0E=", "id"=>"4", "value"=>"Wikid Labs", "_"=>"", "editorId"=>"account_org_name_4_in_place_editor"}
+  [4;35;1mAccount Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccount Update (0.5ms)[0m   [0;1mUPDATE `accounts` SET `updated_at` = '2012-03-29 20:51:12', `org_name` = 'Wikid Labs' WHERE `id` = 4[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCOMMIT[0m
+Completed in 18ms (View: 1, DB: 4) | 200 OK [http://www.wikidlabs.com/reveille/accounts/set_account_org_name/4]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#set_account_backpack_sitename (for 63.167.123.130 at 2012-03-29 20:51:21) [POST]
+  Parameters: {"authenticity_token"=>"+fsaJz72q9so4FWLxKF50Zvz71PK46qyzKJqai75e0E=", "id"=>"4", "value"=>"wikidlabs", "_"=>"", "editorId"=>"account_backpack_sitename_4_in_place_editor"}
+  [4;36;1mAccount Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAccount Update (0.3ms)[0m   [0mUPDATE `accounts` SET `updated_at` = '2012-03-29 20:51:21', `backpack_sitename` = 'wikidlabs' WHERE `id` = 4[0m
+  [4;36;1mSQL (15.8ms)[0m   [0;1mCOMMIT[0m
+Completed in 31ms (View: 1, DB: 18) | 200 OK [http://www.wikidlabs.com/reveille/accounts/set_account_backpack_sitename/4]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:51:29) [GET]
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;36;1mAccountUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mAccount Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 23ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:51:29) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;35;1mAccount Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mAccountUser Load (0.1ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.5ms)
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (24.5ms)
+Rendered users/_change_password (2.4ms)
+  [4;36;1mPlan Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+  [4;35;1mPlan Load (0.1ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.6ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 158ms (View: 46, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:51:33) [GET]
+  [4;36;1mAccountUser Load (0.2ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mAccount Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 21ms (DB: 2) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:51:33) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.2ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (6.8ms)
+  [4;36;1mAccountUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (23.8ms)
+Rendered users/_change_password (2.3ms)
+  [4;35;1mPlan Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.1ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.2ms)
+Rendered shared/_appfooter (0.9ms)
+Completed in 158ms (View: 131, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountUsersController#set_account_user_api_token (for 63.167.123.130 at 2012-03-29 20:52:30) [POST]
+  Parameters: {"authenticity_token"=>"+fsaJz72q9so4FWLxKF50Zvz71PK46qyzKJqai75e0E=", "id"=>"9", "value"=>"74b20d691f13b2f1cf77a6b9dbca91c3affa9645", "_"=>"", "editorId"=>"account_user_api_token_9_in_place_editor"}
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mAccountUser Load (0.3ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.`id` = 9) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAccountUser Update (0.3ms)[0m   [0;1mUPDATE `account_users` SET `updated_at` = '2012-03-29 20:52:30', `api_token` = '74b20d691f13b2f1cf77a6b9dbca91c3affa9645' WHERE `id` = 9[0m
+  [4;35;1mSQL (21.0ms)[0m   [0mCOMMIT[0m
+Completed in 49ms (View: 12, DB: 23) | 200 OK [http://www.wikidlabs.com/reveille/account_users/set_account_user_api_token/9]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:52:32) [GET]
+  [4;36;1mAccountUser Load (0.5ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;35;1mAccountUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mAccount Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 22ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:52:32) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.4ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.6ms)
+  [4;36;1mAccountUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (24.4ms)
+Rendered users/_change_password (2.4ms)
+  [4;35;1mPlan Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.1ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.8ms)
+Rendered shared/_appfooter (0.9ms)
+Completed in 172ms (View: 46, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:52:34) [GET]
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;36;1mAccountUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mAccount Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 21ms (DB: 2) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:52:34) [GET]
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;35;1mAccount Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.5ms)
+  [4;35;1mAccountUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (24.8ms)
+Rendered users/_change_password (2.4ms)
+  [4;36;1mPlan Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+  [4;35;1mPlan Load (0.1ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.9ms)
+Rendered shared/_appfooter (0.9ms)
+Completed in 160ms (View: 46, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:52:53) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.2ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.6ms)
+  [4;36;1mAccountUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (25.0ms)
+Rendered users/_change_password (2.6ms)
+  [4;35;1mPlan Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.1ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.5ms)
+Rendered shared/_appfooter (0.9ms)
+Completed in 76ms (View: 47, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:52:55) [GET]
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;36;1mAccountUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mAccount Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 112ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:52:55) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;35;1mAccount Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.2ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.5ms)
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (25.0ms)
+Rendered users/_change_password (2.5ms)
+  [4;36;1mPlan Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+  [4;35;1mPlan Load (0.1ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (11.6ms)
+Rendered shared/_appfooter (0.9ms)
+Completed in 75ms (View: 46, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:52:56) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.1ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.6ms)
+  [4;36;1mAccountUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (121.0ms)
+Rendered users/_change_password (2.6ms)
+  [4;35;1mPlan Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.1ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (12.4ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 174ms (View: 143, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:52:57) [GET]
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;36;1mAccountUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mAccount Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 23ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:52:57) [GET]
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;35;1mAccount Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `accounts`[0m
+  [4;36;1mAccount Load (0.1ms)[0m   [0;1mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;35;1mAccountUser Load (0.2ms)[0m   [0mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.8ms)
+  [4;35;1mAccountUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (25.0ms)
+Rendered users/_change_password (2.6ms)
+  [4;36;1mPlan Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+  [4;35;1mPlan Load (0.1ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (12.8ms)
+Rendered shared/_appfooter (1.0ms)
+Completed in 79ms (View: 49, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BackpackRemindersController#index (for 63.167.123.130 at 2012-03-29 20:55:35) [GET]
+  [4;36;1mAccountUser Load (0.2ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.`account_id` = 4 AND `account_users`.`user_id` = 7) LIMIT 1[0m
+  [4;35;1mAccountUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `account_users`[0m
+  [4;36;1mAccount Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+Redirected to http://www.wikidlabs.com/reveille/account
+Filter chain halted as [:validate_account] rendered_or_redirected.
+Completed in 23ms (DB: 3) | 302 Found [http://www.wikidlabs.com/reveille/reminders]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AccountsController#index (for 63.167.123.130 at 2012-03-29 20:55:35) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+  [4;36;1mAccount Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mAccount Load (0.1ms)[0m   [0mSELECT * FROM `accounts` WHERE (`accounts`.`id` = 4) [0m
+  [4;36;1mAccountUser Load (0.2ms)[0m   [0;1mSELECT * FROM `account_users` WHERE (`account_users`.user_id = 7 AND (`account_users`.`account_id` = 4)) LIMIT 1[0m
+Rendering template within layouts/app
+Rendering accounts/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 7) [0m
+Rendered shared/_navbar (1.7ms)
+  [4;36;1mAccountUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+Rendered users/_details (26.2ms)
+Rendered users/_change_password (2.5ms)
+  [4;35;1mPlan Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `plans`[0m
+  [4;36;1mPlan Load (0.2ms)[0m   [0;1mSELECT * FROM `plans` WHERE (`plans`.`id` = 8) [0m
+Rendered accounts/_details (12.5ms)
+Rendered shared/_appfooter (0.9ms)
+Completed in 77ms (View: 48, DB: 5) | 200 OK [http://www.wikidlabs.com/reveille/account]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#logout (for 63.167.123.130 at 2012-03-29 20:55:43) [GET]
+Redirected to http://www.wikidlabs.com/reveille/login
+Completed in 1ms (DB: 0) | 302 Found [http://www.wikidlabs.com/reveille/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#login (for 63.167.123.130 at 2012-03-29 20:55:43) [GET]
+Rendering template within layouts/app
+Rendering users/login
+Rendered users/_login_form (2.5ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille/login]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 63.167.123.130 at 2012-03-29 20:55:46) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#signup (for 66.249.66.199 at 2012-03-30 01:34:51) [GET]
+  [4;35;1mSelectvalue Load (0.7ms)[0m   [0mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'cctype') [0m
+  [4;36;1mSelectvalue Load (0.3ms)[0m   [0;1mSELECT * FROM `selectvalues` WHERE (`selectvalues`.`key` = 'ccmonthdropdown') [0m
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAccount Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `accounts`[0m
+  [4;35;1mPayment Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `payments`[0m
+  [4;36;1mAccountUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `account_users`[0m
+  [4;35;1mPlan Load (0.5ms)[0m   [0mSELECT * FROM `plans` WHERE (`plans`.`active` = 1) ORDER BY price DESC[0m
+Rendering template within layouts/marketing
+Rendering users/signup
+  [4;36;1mPlan Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `plans`[0m
+Rendered plans/_show_plan (6.1ms)
+Rendered plans/_show_plan (0.7ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.6ms)
+Rendered plans/_show_plan (0.7ms)
+Completed in 162ms (View: 89, DB: 7) | 200 OK [http://wikidlabs.com/reveille/signup]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.71.166 at 2012-03-30 01:57:55) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://wikidlabs.com/reveille]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.66.225 at 2012-03-30 04:27:17) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 66.249.66.225 at 2012-03-30 06:47:50) [GET]
+  Parameters: {"1265922562"=>nil}
+
+ActionController::RoutingError (No route matches "/images/reveille-screenshot.png" with {:method=>:get}):
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/newrelic_rpm-3.3.2/lib/new_relic/rack/browser_monitoring.rb:23:in `call'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/newrelic_rpm-3.3.2/lib/new_relic/rack/developer_mode.rb:24:in `call'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /home/dlredden/.rvm/gems/ree-1.8.7-2011.03/gems/passenger-3.0.0.pre4/helper-scripts/passenger-spawn-server:99
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 66.249.71.119 at 2012-03-30 09:20:23) [GET]
+Rendering template within layouts/marketing
+Rendering home/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.wikidlabs.com/reveille/]

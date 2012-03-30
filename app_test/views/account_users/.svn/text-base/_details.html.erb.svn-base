@@ -1,0 +1,28 @@
+<div id=<%= "account_user_details_#{account_user.id}"%> style="margin:10px 0px; padding: 5px; background-color: #f4f4f4;">
+	<div id="user_info_#{account_user.id}" style="padding-bottom:5px;float:left">
+		<div style="padding-right:8px; float: left;"><%= image_tag("person.png") %></div>
+		<div>
+			<%= account_user.user.full_name %>
+			<%= account_user.user.email %>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="is_admin_#{account_user.id}" style="float:right">
+		<!--
+		<%= check_box(:account_user, :is_admin, {:title => "Is Account Admin?"}) %>
+		:name => "account_user[is_admin_#{account_user.id.to_s}]", :id => "account_user_is_admin_#{account_user.id.to_s}",
+		:with => "'id=#{account_user.id.to_s}' + '&checked=' + encodeURIComponent(account_user_is_admin.checked)")-->
+		<p><%= check_box_tag("account_user[is_admin_#{account_user.id.to_s}]", nil, account_user.is_admin(), {:id => "account_user_is_admin_#{account_user.id.to_s}", :title => "Is Account Admin?"}) %> This user is an account admin</p>
+		<label id="is_admin_message_#{account_user.id.to_s}"></label>
+		<p><%= link_to_remote("delete user", :update => "account_users", :url => {:action => "destroy", :controller => "account_users", :id => account_user.id}, :method => :delete, :confirm => "Are you sure you want to delete #{account_user.user.full_name()} from this account?", :html => { :class => "action-link" }) %></p>
+		
+		<%= observe_field("account_user_is_admin_#{account_user.id.to_s}",
+	      :url => {:controller => 'account_users', :action => 'change_user_role'},
+	      :on => 'click',
+	      :with => "'id=#{account_user.id.to_s}' + '&message_label=is_admin_message_#{account_user.id.to_s}' + '&checked=' + encodeURIComponent(document.getElementById('account_user_is_admin_#{account_user.id.to_s}').checked)")
+	      %>
+	</div>
+	
+	<div class="clear"></div>
+</div>

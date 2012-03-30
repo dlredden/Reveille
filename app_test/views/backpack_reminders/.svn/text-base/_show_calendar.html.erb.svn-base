@@ -1,0 +1,19 @@
+<% @current_month = nil -%>
+
+<div id=<%= "backpack_calendar_#{calendar['id'].to_s}" %> >
+	<div class="container-heading"><h2>Showing <%= calendar["name"] %>'s important scheduled events</h2></div>
+	
+	<div class="backpack-calendar">		
+		<% for event in calendar["events"].sort { |a,b| a[1]["event"]["occurs_at"] <=> b[1]["event"]["occurs_at"]} -%>
+			<% if (@current_month == nil || @current_month != event[1]["event"]["occurs_at"].month()) -%>
+				<% @current_month = event[1]["event"]["occurs_at"].month() -%>
+				<div class="calendar-date-title">
+					<%= event[1]["event"]["occurs_at"].strftime("%B %Y") %>
+					<hr style="width:100%">
+				</div>
+			<% end -%>
+			
+			<%= render(:partial => "display_event", :locals => {:event => event[1]}) %>
+		<% end -%>
+	</div>
+</div>

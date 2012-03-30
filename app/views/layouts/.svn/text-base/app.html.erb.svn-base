@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Reveille<%= " > #{@page_title}" if @page_title %></title>
+		
+		<meta name="author" content="Wikid Labs" />
+		<meta name="copyright" content="Copyright 2009, Wikid Labs" />
+		<meta name="version" content="1.0" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="Reveille, Wikid Labs, Backpack, Calendar, Reminder, Automatic " />
+		<meta name="description" content="Reveille enables flexible calendar reminders for 37signals Backpack users" />
+		<meta name="revisit-after" content="2 days" />
+		<meta name="robots" content="follow,index" />
+		<link rel="shortcut icon" href="<%= root_url %>favicon.ico" />
+
+		<%= stylesheet_link_tag("main") %>
+		<%= stylesheet_link_tag("app") %>
+		
+		<%= javascript_include_tag(:defaults) %>
+	</head>
+	
+	<body>
+		<div id="content">
+			<%= yield %>
+		</div>
+	</body>
+</html>

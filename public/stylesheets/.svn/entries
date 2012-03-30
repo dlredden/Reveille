@@ -1,0 +1,88 @@
+8
+
+dir
+2
+http://odeubu1.myvnc.com/svn/reveille/trunk/public/stylesheets
+http://odeubu1.myvnc.com/svn/reveille
+
+
+
+2009-12-23T03:16:58.545754Z
+1
+dlredden
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604b9625-c81f-47cb-8587-30735df8311b
+
+main copy.css
+file
+4
+
+
+
+2010-02-05T03:15:00.000000Z
+ace53b8a2aa8ee2f21dbe82f9cce750b
+2010-02-11T20:49:56.072928Z
+4
+dlredden
+
+app.css
+file
+4
+
+
+
+2010-02-10T05:32:35.000000Z
+4f003bd821f21adf65a5a9ab6721f7ce
+2010-02-11T20:49:56.072928Z
+4
+dlredden
+
+scaffold.css
+file
+
+
+
+
+2009-12-23T03:37:20.000000Z
+1893346d0c0f2ea5966e203e756ba827
+2009-12-23T03:16:58.545754Z
+1
+dlredden
+
+reset.css
+file
+3
+
+
+
+2010-01-08T20:30:43.000000Z
+e0d8c017ceaa4c7b20fdb5c91878bfcb
+2010-01-18T20:25:49.949849Z
+3
+dlredden
+
+main.css
+file
+4
+
+
+
+2010-02-11T05:29:17.000000Z
+865a8d4ae03bbacd5f0c718438316060
+2010-02-11T20:49:56.072928Z
+4
+dlredden
+

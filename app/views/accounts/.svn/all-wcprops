@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/reveille/!svn/ver/1/trunk/app/views/accounts
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/reveille/!svn/ver/1/trunk/app/views/accounts/edit.html.erb
+END
+_user_admin.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/reveille/!svn/ver/4/trunk/app/views/accounts/_user_admin.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/reveille/!svn/ver/4/trunk/app/views/accounts/index.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/reveille/!svn/ver/1/trunk/app/views/accounts/show.html.erb
+END
+cancel.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/reveille/!svn/ver/4/trunk/app/views/accounts/cancel.js.rjs
+END
+_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/4/trunk/app/views/accounts/_details.html.erb
+END
+_cancel.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/reveille/!svn/ver/4/trunk/app/views/accounts/_cancel.html.erb
+END

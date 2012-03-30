@@ -1,0 +1,24 @@
+<div class="reminders">
+	<table>
+		<tr>
+			<th>Message</th>
+			<th>When</th>
+			<th>Who</th>
+		</tr>
+	<% for reminder in @reminders -%>
+		<tr class="<%= cycle('row1', 'row2') %>">
+			<td><%= h(reminder.content) %></td>
+			<td><%= h(reminder.remind_at.strftime("%Y-%m-%d %I:%M:%S %p")) %></td>
+			<td>
+				<% for user in reminder.remindees -%>
+					<% if (user.id == reminder.remindees.last.id) -%>
+					<%=	"#{user.name}" %>
+					<% else -%>
+					<%=	"#{user.name}," %>
+					<% end -%>
+				<% end -%>
+			</td>
+		</tr>
+	<% end -%>
+	</table>
+</div>

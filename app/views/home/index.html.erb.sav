@@ -1,0 +1,82 @@
+<div id="mktg">
+<div id="topbar">
+	<div id="nav" class="page-wrap">
+	<div class="right">
+		<ul>
+			<li><%= link_to "Home", "http://wikidlabs.com/reveille/"%></li>
+			<li><%= link_to "Blog", "http://wikidlabs.com/blog/"%></li>
+			<li><%= link_to "Crafted by WikidLabs", "http://wikidlabs.com"%></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+	</div>
+</div>
+
+<div id="top" class="page-wrap">
+	<a href="/reveille"><h1 id="logo">Reveille</h1></a>
+	<h2>More Powerful Reminders for Backpack Calendar</h2>
+</div>
+
+<div id="midbar">
+	<div id="mid" class="page-wrap">
+		<div id="desc" class="left">
+			<p>Reveille enhances the calendar in Backpack, an application from 37signals.  It allows you to <strong>automatically create and manage reminders</strong> for your events in ways never before possible. You can even <strong>create multiple reminders</strong> for each event.</p>
+			<p>Reveille works alongside your Backpack accounts. By utilizing an <strong>intuitive hashtag system</strong>, Reveille fits seamlessly into your Backpack workflow.</p>	
+		</div>
+		<div id="howto" class="right">
+			<%= image_tag("howto.png") %>
+		</div>
+		<div class="clear"></div>
+		<div id="coming-soon">
+			<div id="sub-request" class="left">
+				<p><strong>Reveille will be ready in a few short weeks. Please subscribe to our mailing list for the lastest news and promotions.</strong></p>
+			</div>
+				<p class="coming-soon-pg"><strong>Subscribe to our mailing list</strong></p>
+			<%= render :partial => 'mailinglists/mailinglist_form' %>
+				<p id="twitter-follow">... and be sure to <strong><%= link_to "follow", "http://www.twitter.com/wikidlabs" %></strong> us on Twitter.</p>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+
+<div id="faq-bar">
+	<div id="faq" class="page-wrap">
+		<h2 class="faq-h2">Here are the answers to a few common questions about Reveille ...</h2>
+		<div id="what-is-backpack" class="left">
+			<h3>What is Backpack?</h3>
+			<p>Backpack is a web based organization tool created by <%= link_to "37signals", "http://www.37signals.com"%>.  You can share information with your team or family, and keep important documents, discussions, and schedules in one place.  We personally use it and love it, and we think you will too.<br><%= link_to "Click to learn more, or to get a Backpack account.", "http://backpackit.com/?referrer=WIKIDLABS"%></p>
+		</div>
+		<div id="why-build-reveille" class="left">
+			<h3>Why did you create Reveille?</h3>
+			<p>We use Backpack ourselves, and we found the built-in 30 minute reminders for the calendar to be too limiting.  So, we decided to do something about it.  We built Reveille to provide an easy way for us to add and manage reminders.  We loved using it so much we decided to make it available to you.</p>
+		</div>
+		<div id="how-much-cost" class="left">
+			<h3>What are your pricing plans?</h3>
+			<p>We will reveal specifics when Reveille becomes publicly available, but rest assured that pricing for Reveille will be very reasonable.  To make it easier to decide the right plan for you, we are tailoring our plans to match the capabilities of Backpack's plans.  So, all you'll need to do is choose the plan that matches your Backpack account and you'll be set.</p>
+		</div>
+		<div class="clear"></div>
+		<h2 class="faq-h2">Got more questions? <%= link_to "Send us an email", "mailto:hello@wikidlabs.com"%> and we'll get them answered.</h2>
+	</div>
+</div>
+
+<div id="footer">
+	<div id="foot" class="page-wrap">
+		<div>
+			<ul>
+				<li><%= link_to "Home", "http://wikidlabs.com/reveille/"%></li>
+				<li><%= link_to "Blog", "http://wikidlabs.com/blog/"%></li>
+				<li><%= link_to "Send us an email", "mailto:hello@wikidlabs.com"%></li>
+				<li><%= link_to "Follow us on Twitter", "http://twitter.com/wikidlabs"%></li>
+			</ul>
+		</div>
+		<div><%= link_to(image_tag("wikidlabs-logo.png"), "http://wikidlabs.com") %></div>
+		<div>
+			<p class="disclosure">The names and logos for <%= link_to "Backpack", "http://backpackit.com/?referrer=WIKIDLABS"%> and <%= link_to "37signals", "http://37signals.com"%> are registered trademarks of 37signals, LLC. </p>
+			<p class="disclosure">The names and logos for <%= link_to "Reveille", "http://wikidlabs.com/reveille/"%> and <%= link_to "Wikid Labs", "http://wikidlabs.com"%> are trademarks of <%= link_to "Wikid Labs", "http://wikidlabs.com"%>, LLC.</strong></p>
+			<p class="disclosure">All site content is &copy;2010 Wikid Labs, LLC. All rights reserved.</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+	
+</div>

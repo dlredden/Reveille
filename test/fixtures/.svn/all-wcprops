@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/reveille/!svn/ver/1/trunk/test/fixtures
+END
+accounts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/accounts.yml
+END
+mailinglists.yml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/reveille/!svn/ver/3/trunk/test/fixtures/mailinglists.yml
+END
+payments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/payments.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/users.yml
+END
+roles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/roles.yml
+END
+backpack_reminders.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/backpack_reminders.yml
+END
+plan_limits.yml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/plan_limits.yml
+END
+account_users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/account_users.yml
+END
+plans.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/plans.yml
+END
+backpack_accounts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/reveille/!svn/ver/1/trunk/test/fixtures/backpack_accounts.yml
+END

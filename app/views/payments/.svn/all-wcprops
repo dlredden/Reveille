@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/reveille/!svn/ver/4/trunk/app/views/payments
+END
+_edit_billing_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/reveille/!svn/ver/4/trunk/app/views/payments/_edit_billing_details.html.erb
+END
+billing_update.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/reveille/!svn/ver/4/trunk/app/views/payments/billing_update.js.rjs
+END
+billing_update.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/reveille/!svn/ver/4/trunk/app/views/payments/billing_update.html.erb
+END
+_billing_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/reveille/!svn/ver/4/trunk/app/views/payments/_billing_details.html.erb
+END

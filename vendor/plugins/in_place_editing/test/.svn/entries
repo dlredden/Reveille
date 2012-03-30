@@ -1,0 +1,42 @@
+8
+
+dir
+3
+http://odeubu1.myvnc.com/svn/reveille/trunk/vendor/plugins/in_place_editing/test
+http://odeubu1.myvnc.com/svn/reveille
+
+
+
+2010-01-18T20:25:49.949849Z
+3
+dlredden
+
+
+svn:special svn:externals svn:needs-lock
+
+test_helper.rb
+file
+
+
+
+
+2009-12-25T03:17:16.000000Z
+3e7f79a72c4189a1c347179ab81647d2
+2010-01-18T20:25:49.949849Z
+3
+dlredden
+has-props
+
+in_place_editing_test.rb
+file
+
+
+
+
+2009-12-25T03:17:16.000000Z
+21184ddbb6ee23007147610fa9646947
+2010-01-18T20:25:49.949849Z
+3
+dlredden
+has-props
+

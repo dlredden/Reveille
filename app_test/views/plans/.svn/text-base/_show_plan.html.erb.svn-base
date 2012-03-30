@@ -1,0 +1,29 @@
+<div class="plan-list"> 
+	<table>
+		<tr>
+		<td>
+			<p class="plan-name">
+				<h1><%= plan.name %></h1>
+				<h2>$<%= sprintf("%.0f", plan.price/12) %>/month</h2>
+			</p>
+		</td>
+		<td>
+			<p class="plan-desc">
+				Up to <strong><%= plan.users_allowed %> Users</strong><br>
+				Unlimited Reminders<br>
+				<%= plan.update_interval > 60 ? "<strong>#{plan.update_interval/60} minute</strong>" : "<strong>#{plan.update_interval} second</strong>" %> updates*<br>
+				SSL security
+				
+			</p>
+		</td>
+		<td>
+			Choose <%= plan.name %>:<br>
+			<% check = false -%>
+			<% if (plan.name.eql? "Plus") -%>
+			<% check = true -%>
+			<% end -%>
+			<%= radio_button(:account, :plan_id, "#{plan.id}", :checked => check ) %>
+		</td>
+		</tr>
+	</table>
+</div>

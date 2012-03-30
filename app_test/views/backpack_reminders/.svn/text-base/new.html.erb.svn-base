@@ -1,0 +1,27 @@
+<h1>New backpack_reminder</h1>
+
+<% form_for(@backpack_reminder) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </p>
+  <p>
+    <%= f.label :calendar_id %><br />
+    <%= f.text_field :calendar_id %>
+  </p>
+  <p>
+    <%= f.label :calendar_event_id %><br />
+    <%= f.text_field :calendar_event_id %>
+  </p>
+  <p>
+    <%= f.label :reminder_id %><br />
+    <%= f.text_field :reminder_id %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', backpack_reminders_path %>

@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_id: 1
+  name: MyString
+  type: MyString
+  number: 
+  number_key: 
+  number_iv: 
+  exp_date: MyString
+
+two:
+  user_id: 1
+  name: MyString
+  type: MyString
+  number: 
+  number_key: 
+  number_iv: 
+  exp_date: MyString

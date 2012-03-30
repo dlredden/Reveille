@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  plan_id: 
+  limit_name: 
+  limit: 1
+
+two:
+  plan_id: 
+  limit_name: 
+  limit: 1

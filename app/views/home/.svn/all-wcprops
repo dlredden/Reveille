@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/reveille/!svn/ver/1/trunk/app/views/home
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/reveille/!svn/ver/4/trunk/app/views/home/index.html.erb
+END
+index.html.erb.bigvision
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/reveille/!svn/ver/4/trunk/app/views/home/index.html.erb.bigvision
+END
+index.html copy.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/3/trunk/app/views/home/index.html%20copy.erb
+END
+index.html.erb.prev
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/reveille/!svn/ver/4/trunk/app/views/home/index.html.erb.prev
+END

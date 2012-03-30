@@ -1,0 +1,1 @@
+page.replace_html("account_user_admin", :partial => "accounts/user_admin")

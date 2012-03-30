@@ -1,0 +1,22 @@
+<div id=<%= "calendar_event_#{event["event"]["id"]}" %> class="calendar-event">
+	<div class="calendar-event-day">
+		<div align="center" class="calendar-event-dayofweek">
+			<%= "#{event["event"]["occurs_at"].strftime("%a")}" %>
+		</div>
+		<%= "#{event["event"]["occurs_at"].strftime("%d")}" %>
+	</div>
+	<div style="float:left;">
+		<div class="calendar-event-title">
+			<%= "#{event["event"]["title"]}" %>
+		</div>
+		<div style="float:none">
+			<div class="reveille-reminder-tag">
+				Reminders will be sent:
+			</div>
+			<% for reminder in event["reminders"].sort { |a,b| a.remind_at <=> b.remind_at } -%>
+				<%= render(:partial => "display_reminder", :locals => {:reminder => reminder, :user => user}) %>
+			<% end -%>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>

@@ -1,0 +1,80 @@
+*** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+#<fatal: exception reentered>
+*** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+#<MissingSourceFile: no such file to load -- xmlsimple>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- payments_helper>
+#<NameError: uninitialized constant ApplicationController>
+#<MissingSourceFile: Missing helper file helpers/mailer_helper.rb>
+#<MissingSourceFile: no such file to load -- mailer_helper>
+#<NoMemoryError: failed to allocate memory>
+#<SystemStackError: stack level too deep>
+#<fatal: exception reentered>
+*** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+#<fatal: exception reentered>
+*** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+#<MissingSourceFile: no such file to load -- xmlsimple>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- payments_helper>
+#<NameError: uninitialized constant ApplicationController>
+#<MissingSourceFile: Missing helper file helpers/mailer_helper.rb>
+#<MissingSourceFile: no such file to load -- mailer_helper>
+#<NoMemoryError: failed to allocate memory>
+#<SystemStackError: stack level too deep>
+#<fatal: exception reentered>
+*** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+#<fatal: exception reentered>
+*** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+#<MissingSourceFile: no such file to load -- xmlsimple>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- payments_helper>
+#<NameError: uninitialized constant ApplicationController>
+#<MissingSourceFile: Missing helper file helpers/mailer_helper.rb>
+#<MissingSourceFile: no such file to load -- mailer_helper>
+#<NoMemoryError: failed to allocate memory>
+#<SystemStackError: stack level too deep>
+#<fatal: exception reentered>
+*** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+#<fatal: exception reentered>
+*** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+#<MissingSourceFile: no such file to load -- xmlsimple>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- payments_helper>
+#<NameError: uninitialized constant ApplicationController>
+#<MissingSourceFile: Missing helper file helpers/mailer_helper.rb>
+#<MissingSourceFile: no such file to load -- mailer_helper>
+#<NoMemoryError: failed to allocate memory>
+#<SystemStackError: stack level too deep>
+#<fatal: exception reentered>
+*** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+#<fatal: exception reentered>
+*** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+#<MissingSourceFile: no such file to load -- xmlsimple>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- payments_helper>
+#<NameError: uninitialized constant ApplicationController>
+#<MissingSourceFile: Missing helper file helpers/mailer_helper.rb>
+#<MissingSourceFile: no such file to load -- mailer_helper>
+#<NoMemoryError: failed to allocate memory>
+#<SystemStackError: stack level too deep>
+#<fatal: exception reentered>
+Tue Feb 28 21:34:03 +0000 2012
+SIGTERM
+["/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:57:in `sleep'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:57:in `watch'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:44:in `loop'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:44:in `watch'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:84:in `start_with_pidfile'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:64:in `fork'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:64:in `start_with_pidfile'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/monitor.rb:111:in `start'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/application_group.rb:149:in `create_monitor'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/application.rb:284:in `start'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/controller.rb:70:in `run'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons.rb:147:in `run'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/cmdline.rb:109:in `call'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons/cmdline.rb:109:in `catch_exceptions'", "/home/dlredden/.rvm/gems/ree-1.8.7-2011.03@reveille_prod/gems/daemons-1.1.8/lib/daemons.rb:146:in `run'", "./lib/daemons/reminder_ctl:27"]
+*** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+#<fatal: exception reentered>
+*** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+#<MissingSourceFile: no such file to load -- xmlsimple>
+#<MissingSourceFile: no such file to load -- mysql>
+#<MissingSourceFile: no such file to load -- payments_helper>
+#<NameError: uninitialized constant ApplicationController>
+#<MissingSourceFile: Missing helper file helpers/mailer_helper.rb>
+#<MissingSourceFile: no such file to load -- mailer_helper>
+#<NoMemoryError: failed to allocate memory>
+#<SystemStackError: stack level too deep>
+#<fatal: exception reentered>

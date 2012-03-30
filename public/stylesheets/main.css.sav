@@ -1,0 +1,343 @@
+@import "reset.css";
+
+/*** UTILITY ***/
+
+.clear					{ clear:both; }
+
+
+
+/*HEADER AREA*/
+
+#mktg div.right
+{
+	float: right;
+}
+
+#mktg div.left
+{
+	float: left;
+}
+
+#mktg div.page-wrap
+{
+	margin: 0px auto;
+}
+
+#mktg div#nav
+{
+	width: 800px;
+}
+
+#mktg div#topbar
+{
+	background-color: rgb(27, 74, 142);
+	width: 100%;
+	border-bottom: rgb(107,153,218) solid 2px;
+}
+	
+#mktg div#topbar ul
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+	padding: 15px 15px;
+}
+
+#mktg div#topbar ul li
+{
+	display: inline;
+	margin-left: 20px;
+}
+
+#mktg div#topbar a
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+}
+
+#mktg div#topbar a:hover
+{
+	text-decoration: underline;
+}
+
+#mktg div#top
+{
+	width: 800px;
+	margin-bottom: 20px;
+}
+
+#mktg h1#logo
+{ 
+	width: 200px;
+	height: 65px;
+	background: url(../images/reveille-logo.png) top left no-repeat;
+	text-indent: -9999px;
+	position: relative;
+	margin: 20px 0 20px 0;
+	left: -65px;
+	display: block;
+}
+
+#mktg div#top h2
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.9em;
+	font-weight: bold;
+	color: gray;
+	display: block;
+	width: 375px;
+}
+
+#mktg div#midbar
+{
+	background-color: rgb(19,52,121);
+	width: 100%;
+	padding: 25px 0 25px 0;
+}
+
+#mktg div#mid
+{
+	width: 800px;
+}
+
+#mktg div#mid div#desc
+{
+	width: 360px;
+}
+
+#mktg div#midbar p
+{
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+}
+
+#mktg div#howto img
+{
+	margin: -100px -25px 0 0;
+	height: 393px;
+	width: 420px;
+}
+
+#mktg div#coming-soon
+{
+	padding: 20px 0px 20px 0px;
+}
+
+#mktg div#coming-soon ul
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+	padding-bottom: 15px;
+}
+
+#mktg div#coming-soon p
+{
+	color: rgb(207,173,107);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#mktg div#coming-soon a
+{
+	color: rgb(207,173,107);
+}
+
+#mktg div#coming-soon div#sub-request
+{
+	width: 360px;
+	font-size: 1.1em;
+}
+
+#mktg div#coming-soon div#sub-form
+{
+	width: 425px;
+	text-align: right;
+}
+
+#mktg div#coming-soon ul li
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+#mktg div#coming-soon input
+{
+	padding: 3px 3px 3px 3px;
+	font-size: 1.1em;
+	color: rgb(78,78,78);
+}
+
+#mktg input#mailinglist_email_address
+{
+	width: 305px;
+}
+
+#mktg p.coming-soon-pg
+{
+	float: right;
+	padding-right: 134px;
+	text-decoration: underline;
+}
+
+#mktg p#twitter-follow
+{
+	float: right;
+	text-align: right;
+}
+
+#mktg p#mailinglist-add-success
+{
+	color: white !important;
+	float: right;
+	text-align: right;
+}
+
+#mktg div#form_error
+{
+	width: 425px;
+	color: white;
+	font-size: 1.1em;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: -20px;
+	padding-top: 5px;
+}
+
+#mktg div#footer
+{
+	background-color: #222222;
+}
+
+#mktg div#foot
+{
+	width: 800px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .9em;
+	text-decoration: none;
+	color: white;
+}
+
+#mktg div#foot div
+{
+	text-align: center;
+	padding-top: 30px;
+	line-height: 1.3em;
+}
+
+#mktg div#footer ul
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+#mktg div#footer ul li
+{
+	display: inline;
+	margin: 20px;
+}
+
+#mktg div#footer ul a
+{
+	font-size: 1.1em;
+	color: rgb(107,153,218);
+}
+
+#mktg div#footer a
+{
+	color: white;
+}
+
+#mktg p.disclosure
+{
+	font-size: .8em;
+}
+
+#mktg div#faq
+{
+	width: 800px;
+	padding: 10px 0px;
+}
+
+#mktg h2.faq-h2
+{
+	font-family: Georgia, serif;
+	font-size: 1.4em;
+	color: #222222;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#mktg div#faq div
+{
+	width: 250px;
+	font-family: Georgia, serif;
+	font-size: 1.0em;
+	line-height: 1.3em;
+	color: #222222;
+}
+
+#mktg div#faq h3
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: rgb(27, 74, 142);
+	text-transform: uppercase;
+}
+
+#mktg div#why-build-reveille
+{
+	padding: 0px 35px 0px 15px;
+}
+
+/*******************/
+/* Application CSS */
+/*******************/
+
+div#navbar
+{
+	position: relative;
+	padding: 5px 1% 5px 1%;
+	width: 98%;
+	background-color: #888888;
+	text-align: right;
+}
+
+/*div#content
+{
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #CCFF33;
+	text-align: center;
+}*/
+
+div#account_user_admin
+{
+	
+}
+
+span.in_place_edit_style
+{
+	border: solid;
+	border-width: thin;
+	background-color: #FFFFFF;
+}
+
+body
+{
+	margin: 0px;
+}

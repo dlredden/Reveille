@@ -1,0 +1,18 @@
+<% @page_title = 'Schedule' -%>
+
+<%= render :partial => 'shared/navbar'%>
+
+<div id="reminders" class="main-app-container">
+	<% if (@calendars.length == 0) -%>
+		<div class="container-wrapper">
+			<h1>You currently have no reminders managed by Reveille.</h1>
+		</div>
+	<% else -%>
+		<% @calendars.each_value do |calendar| -%>
+			<%= render(:partial => "show_calendar", :locals => {:calendar => calendar, :user => @account_user.user}) %>
+		<% end -%>
+	<% end -%>
+</div>
+<%= render :partial => 'shared/appfooter' %>
+
+

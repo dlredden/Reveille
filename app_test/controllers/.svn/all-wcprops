@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/reveille/!svn/ver/1/trunk/app/controllers
+END
+account_users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/reveille/!svn/ver/5/trunk/app/controllers/account_users_controller.rb
+END
+plans_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/reveille/!svn/ver/4/trunk/app/controllers/plans_controller.rb
+END
+accounts_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/4/trunk/app/controllers/accounts_controller.rb
+END
+mailinglists_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/reveille/!svn/ver/3/trunk/app/controllers/mailinglists_controller.rb
+END
+payments_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/4/trunk/app/controllers/payments_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/reveille/!svn/ver/5/trunk/app/controllers/users_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/4/trunk/app/controllers/application_controller.rb
+END
+backpack_reminders_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/reveille/!svn/ver/5/trunk/app/controllers/backpack_reminders_controller.rb
+END
+home_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/reveille/!svn/ver/4/trunk/app/controllers/home_controller.rb
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/edit.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/new.html.erb
+END
+_form_success.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/_form_success.html.erb
+END
+_form_error.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/_form_error.html.erb
+END
+_mailinglist_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/_mailinglist_form.html.erb
+END
+create.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/4/trunk/app/views/mailinglists/create.js.rjs
+END
+delete.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/delete.html.erb
+END
+create.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/3/trunk/app/views/mailinglists/create.html.erb
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/reveille/!svn/ver/1/trunk/app/models
+END
+backpack_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/reveille/!svn/ver/3/trunk/app/models/backpack_user.rb
+END
+payment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/reveille/!svn/ver/4/trunk/app/models/payment.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/reveille/!svn/ver/5/trunk/app/models/user.rb
+END
+backpack_reminder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/reveille/!svn/ver/5/trunk/app/models/backpack_reminder.rb
+END
+reminder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/reveille/!svn/ver/4/trunk/app/models/reminder.rb
+END
+mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/reveille/!svn/ver/5/trunk/app/models/mailer.rb
+END
+account_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/reveille/!svn/ver/5/trunk/app/models/account_user.rb
+END
+plan.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/reveille/!svn/ver/3/trunk/app/models/plan.rb
+END
+selectvalue.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/reveille/!svn/ver/1/trunk/app/models/selectvalue.rb
+END
+account.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/reveille/!svn/ver/4/trunk/app/models/account.rb
+END
+mailinglist.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/reveille/!svn/ver/3/trunk/app/models/mailinglist.rb
+END

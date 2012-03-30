@@ -1,0 +1,18 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: reveille
+  username: reveille
+  password: XqXFGGeyWM58W8Lp
+  socket: /var/run/mysqld/mysqld.sock
+  pool: 5
+  timeout: 5000
+production:
+  adapter: mysql
+  encoding: utf8
+  database: reveille
+  username: reveille
+  password: XqXFGGeyWM58W8Lp
+  socket: /var/run/mysqld/mysqld.sock
+  pool: 5
+  timeout: 5000

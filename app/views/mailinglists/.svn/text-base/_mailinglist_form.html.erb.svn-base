@@ -1,0 +1,8 @@
+<div id="sub-form" class="right">
+        <% form_remote_tag(:url => {:controller => :mailinglists, :action => :create}) do %>
+        <ul>
+        	<li><%= text_field(:mailinglist, :email_address, :value => "Enter email address", :size => 25, :maxlength => 255, :onfocus => "this.value='';") %></li>
+                <li><%= submit_tag("Submit") %></li>
+        </ul>
+        <% end %>
+</div>

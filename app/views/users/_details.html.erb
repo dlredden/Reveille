@@ -1,0 +1,42 @@
+<div id="user_details">
+<h2 class="container-heading">Your contact information for this account</h2>
+	<table>
+		<tbody>
+			<tr>
+				<th>First name</th>
+				<td><%= in_place_editor_field(:user, "first_name", {:class => "in-place-edit"}, :url => {:controller => "users", :action => "set_user_first_name", :id => @user.id}) %></td>
+			</tr>
+			<tr>
+				<th>Last name</th>
+				<td><%= in_place_editor_field(:user, "last_name", {:class => "in-place-edit"}, :url => {:controller => "users", :action => "set_user_last_name", :id => @user.id}) %></td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td><%= in_place_editor_field(:user, "email", {:class => "in-place-edit"}, :url => {:controller => "users", :action => "set_user_email", :id => @user.id}) %></td>
+			</tr>
+			<tr>
+				<th>Time Zone</th>
+				<td>
+					<%= time_zone_select(:user, :timezone, ActiveSupport::TimeZone.all.sort, {:default => "UTC", :model => ActiveSupport::TimeZone}) %>
+					<%= observe_field(
+							:user_timezone,
+							:url => {:controller => 'users', :action => 'change_timezone'},
+							:on => 'change',
+							:with => "'id=#{@user.id}' + '&timezone=' + encodeURIComponent(document.getElementById('user_timezone').options[document.getElementById('user_timezone').selectedIndex].value)")
+					%>
+				</td>
+			</tr>
+			<tr>
+				<th>Authentication token</th>
+				<% if (@account_user.api_token.nil? || @account_user.api_token == "") -%>
+					<td>
+						<span id="api_token_edit" title="Click to edit" class="in-place-edit">(Click to add)</span>
+						<%= in_place_editor_field(:account_user, "api_token", {:class => "in-place-edit"}, {:external_control => "api_token_edit", :url => {:controller => "account_users", :action => "set_account_user_api_token", :id => @account_user.id}}) %>
+					</td>
+				<% else -%>
+					<td><%= in_place_editor_field(:account_user, "api_token", {:class => "in-place-edit"}, :url => {:controller => "account_users", :action => "set_account_user_api_token", :id => @account_user.id}) %></td>
+				<% end -%>
+			</tr>
+		</tbody>
+	</table>
+</div>

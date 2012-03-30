@@ -1,0 +1,79 @@
+8
+
+dir
+2
+http://odeubu1.myvnc.com/svn/reveille/trunk/app/views/home
+http://odeubu1.myvnc.com/svn/reveille
+
+
+
+2009-12-23T03:16:58.545754Z
+1
+dlredden
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604b9625-c81f-47cb-8587-30735df8311b
+
+index.html.erb
+file
+4
+
+
+
+2010-02-11T06:14:01.000000Z
+6cc08fc0adc1b9b156be4a8d22fabf7d
+2010-02-11T20:49:56.072928Z
+4
+dlredden
+
+index.html.erb.bigvision
+file
+4
+
+
+
+2010-02-11T04:11:13.000000Z
+2aad058c09926e3084ba1d7866df6123
+2010-02-11T20:49:56.072928Z
+4
+dlredden
+has-props
+
+index.html copy.erb
+file
+3
+
+
+
+2010-01-08T05:43:26.000000Z
+74b4b5e72e3dbf55eaf5b0e433a3eba9
+2010-01-18T20:25:49.949849Z
+3
+dlredden
+has-props
+
+index.html.erb.prev
+file
+4
+
+
+
+2010-02-05T03:12:07.000000Z
+6648cea5647234ed3152b96a68e87510
+2010-02-11T20:49:56.072928Z
+4
+dlredden
+has-props
+

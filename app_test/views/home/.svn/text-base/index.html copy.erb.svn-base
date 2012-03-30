@@ -1,0 +1,20 @@
+<div>
+	<%= link_to "Login", :controller => "login"%>
+	<%= link_to "Sign Up", :controller => "signup"%>
+</div>
+<div>
+	<h1>What is Reveille?</h1>
+	<p>
+		Reveille is a simple app that automatically creates Backpack Reminders for your Backpack Calendar events.
+		All you need to do is add a tag for each reminder that you'd like set and Reveille will strip those
+		tags out of your calendar item and set the appropriate reminders.
+	</p>
+	<h1>How will Reveille make my life better?</h1>
+	<p>
+		With Reveille gluing your Backpack Calendar items to Backpack Reminders you can now get reminders
+		anytime you want for any event you want in any way you want. No longer will you be tied down by a very 
+		limited 30 minute reminder.
+	</p>
+</div>
+
+<%= image_tag("http:\/\/backpackit\.com\/images\/logo_backpack-full\.png")%>

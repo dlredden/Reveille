@@ -1,0 +1,7 @@
+<% @page_title = 'Login To Your Account' -%>
+<div id='logo'>
+	<%= image_tag("reveille-logo-trans.png") %>
+</div>
+<div id='login'>
+	<%= render(:partial => "login_form") %>
+</div>

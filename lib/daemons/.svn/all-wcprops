@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/reveille/!svn/ver/1/trunk/lib/daemons
+END
+reminder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/reveille/!svn/ver/3/trunk/lib/daemons/reminder.rb
+END
+reminder_ctl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/reveille/!svn/ver/1/trunk/lib/daemons/reminder_ctl
+END

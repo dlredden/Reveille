@@ -1,0 +1,78 @@
+	<% @page_title = 'Signup' -%>
+
+<div id='signup'>
+	<%= "<p class=\"notice\">#{flash[:notice]}</p>" if flash[:notice] %>
+	<%= error_messages_for :user %>
+	<%= error_messages_for :account %>
+	<%= error_messages_for :payment %>
+	
+<div id="signup-container" class="page-wrap">
+<div class="clear"></div>
+<div id="signup-header">
+	<h1>30-Day Free Trial on All Accounts!</h1>
+	<h2>Get a smarter Backpack Calendar in just 60 seconds.<br>No credit card required to get started.</h2>
+</div>
+<% form_tag(:action => 'send_signup') do -%>
+	<div id="signup-form-left" class="left">
+		<%= image_tag("step1.png", :class => "signup-step-img") %> <h2 class="signup-step">Select your plan</h2>
+		<% @plans.each do |plan| -%>
+			<%= render(:partial => "plans/show_plan", :locals => {:plan => plan, :checked => "Plus"}) %>
+		<% end -%>
+		<p class="footnote">*Update time refers to the frequency Backpack is checked for new calendar events.</p> 
+	</div>
+	<div id="signup-form-center" class="right"></div>
+	<div id="signup-form-right" class="right">
+	<%= image_tag("step2.png", :class => "signup-step-img") %><h2 class="signup-step">Create your Reveille account</h2>
+	<h3>We will use this information to create your Reveille account and add you as the first user. Once you are logged in you will be able to invite additional users from your organization.</h3>
+	<table class="signup">
+		<tbody>
+			<tr>
+				<th>First Name</th>
+				<td><%= text_field(:user, :first_name) %></td>
+			</tr>
+			<tr>
+				<th>Last Name</th>
+				<td><%= text_field(:user, :last_name) %></td>
+			</tr>
+			<tr>
+				<th>Organization</th>
+				<td><%= text_field(:account, :org_name) %></td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td><%= text_field(:user, :email) %></td>
+			</tr>
+			<tr>
+				<th>Password</th>
+				<td><%= password_field(:user, :password) %></td>
+			</tr>
+			<tr>
+				<th>Confirm Password</th>
+				<td><%= password_field(:user, :password_confirmation) %></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<div id="backpack-acct-container">
+	<h2>Backpack Account Information</h2>
+	<h3>Reveille needs to know your Backpack site address and API token to connect to your calendar. Your Backpack API token can be found at the bottom of the 'My info' page in Backpack.</h3>
+	<p class="signup">
+		<%= label(:account, :backpack_sitename, "Backpack Site Address") %>
+		<br/>
+		http://<%= text_field(:account, :backpack_sitename) %>.backpackit.com
+		<br/>
+	</p>
+	<p class="signup">
+		<%= label(:account_user, :api_token, "Backpack API Authentication Token") %>
+		<br/>
+		<%= text_field(:account_user, :api_token, :class => "api-input") %>
+		<br/>
+	</p>
+	</div>
+	<%= image_submit_tag("create-account-button.png") %>
+	</div>
+	<div class="clear"></div>
+<% end -%>
+
+</div>
+</div>

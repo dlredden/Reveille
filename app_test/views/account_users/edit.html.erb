@@ -1,0 +1,24 @@
+<h1>Editing account_user</h1>
+
+<% form_for(@account_user) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </p>
+  <p>
+    <%= f.label :account_id %><br />
+    <%= f.text_field :account_id %>
+  </p>
+  <p>
+    <%= f.label :role_id %><br />
+    <%= f.text_field :role_id %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @account_user %> |
+<%= link_to 'Back', account_users_path %>

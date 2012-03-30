@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/reveille/!svn/ver/1/trunk/public/stylesheets
+END
+main copy.css
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/reveille/!svn/ver/4/trunk/public/stylesheets/main%20copy.css
+END
+app.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/reveille/!svn/ver/4/trunk/public/stylesheets/app.css
+END
+scaffold.css
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/reveille/!svn/ver/1/trunk/public/stylesheets/scaffold.css
+END
+reset.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/reveille/!svn/ver/3/trunk/public/stylesheets/reset.css
+END
+main.css
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/reveille/!svn/ver/4/trunk/public/stylesheets/main.css
+END

@@ -1,0 +1,25 @@
+<%= render :partial => 'shared/navbar'%>
+
+<p>
+  <b>User:</b>
+  <%=h @backpack_reminder.user_id %>
+</p>
+
+<p>
+  <b>Calendar:</b>
+  <%=h @backpack_reminder.calendar_id %>
+</p>
+
+<p>
+  <b>Calendar event:</b>
+  <%=h @backpack_reminder.calendar_event_id %>
+</p>
+
+<p>
+  <b>Reminder:</b>
+  <%=h @backpack_reminder.reminder_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_backpack_reminder_path(@backpack_reminder) %> |
+<%= link_to 'Back', backpack_reminders_path %>

@@ -1,0 +1,11 @@
+<% @account ||= Account.find(current_account) -%>
+
+<div id="cancel_account" style="float:right; margin: 0px 40px 20px 0px;">
+	<% if(@account.is_canceled) -%>
+		<span><i>Account closed but active until <%= @account.next_bill_date.strftime('%b %d, %Y') %></i></span>
+		<%= link_to_remote("Reactivate Account", :with => "'is_canceled=false'", :update => "accounts", :url => {:action => "cancel", :id => @account.id}, :confirm => "Reactivating this account will reauthorize a charge of $#{@account.bill_amount.to_s} on #{@account.next_bill_date.strftime('%b %d, %Y')}. Are you sure you want to reactivate this account?") %>
+	<% else -%>
+		Please <%= link_to_remote("Cancel", :with => "'is_canceled=true'", :update => "accounts", :url => {:action => "cancel", :id => @account.id}, :confirm => "Cancelation of this account will stop any future charges. The account will remain open and active until #{@account.next_bill_date.strftime('%b %d, %Y')}. For two weeks after that date any account admin would be able to login to reactivate the account but all other functionality will cease. Are you sure you want to cancel this account?") %> my account
+	<% end -%>
+</div>
+<div class="clear"></div>

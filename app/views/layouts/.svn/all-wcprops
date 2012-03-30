@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/reveille/!svn/ver/1/trunk/app/views/layouts
+END
+account_users.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/reveille/!svn/ver/1/trunk/app/views/layouts/account_users.html.erb
+END
+app.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/reveille/!svn/ver/4/trunk/app/views/layouts/app.html.erb
+END
+marketing.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/4/trunk/app/views/layouts/marketing.html.erb
+END
+application.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/4/trunk/app/views/layouts/application.html.erb
+END
+roles.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/reveille/!svn/ver/1/trunk/app/views/layouts/roles.html.erb
+END

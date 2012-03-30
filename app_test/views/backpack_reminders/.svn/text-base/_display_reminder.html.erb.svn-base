@@ -1,0 +1,5 @@
+<div style="padding: 0px 0px 0px 5px; float:left;">
+	<div id=<%= "reveille_reminder_#{reminder.id}" %> class="reveille-reminder">
+		<%= reminder.formatted_remind_at() %>
+	</div>
+</div>

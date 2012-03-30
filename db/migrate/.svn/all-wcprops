@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/reveille/!svn/ver/1/trunk/db/migrate
+END
+20091230062254_add_users_allowed_and_update_interval_and_ssl_required_to_plans.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091230062254_add_users_allowed_and_update_interval_and_ssl_required_to_plans.rb
+END
+20100112152338_create_mailinglists.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20100112152338_create_mailinglists.rb
+END
+20091223020937_create_roles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091223020937_create_roles.rb
+END
+20091123214035_create_backpack_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091123214035_create_backpack_accounts.rb
+END
+20091223210321_add_account_id_to_backpack_reminder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091223210321_add_account_id_to_backpack_reminder.rb
+END
+20091223212510_remove_plan_id_aand_username_from_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091223212510_remove_plan_id_aand_username_from_user.rb
+END
+20091216052616_create_plan_features.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091216052616_create_plan_features.rb
+END
+20091230051850_add_processed_at_to_account_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091230051850_add_processed_at_to_account_users.rb
+END
+20091216052836_add_plan_id_and_payment_id_to_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091216052836_add_plan_id_and_payment_id_to_user.rb
+END
+20091218044032_create_payments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091218044032_create_payments.rb
+END
+20091123212448_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091123212448_create_users.rb
+END
+20091223210413_add_api_token_to_account_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091223210413_add_api_token_to_account_user.rb
+END
+20091223021132_create_account_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091223021132_create_account_users.rb
+END
+20091223212418_remove_user_id_from_payment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091223212418_remove_user_id_from_payment.rb
+END
+20100201223625_add_is_canceled_to_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100201223625_add_is_canceled_to_accounts.rb
+END
+20091223022910_add_backpack_sitename_and_requires_ssl_to_account.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091223022910_add_backpack_sitename_and_requires_ssl_to_account.rb
+END
+20091230062420_remove_ssl_required_from_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091230062420_remove_ssl_required_from_accounts.rb
+END
+20091203052950_create_backpack_reminders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091203052950_create_backpack_reminders.rb
+END
+20100208020007_add_ssl_required_to_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100208020007_add_ssl_required_to_accounts.rb
+END
+20100208030549_remove_ssl_required_from_plans.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100208030549_remove_ssl_required_from_plans.rb
+END
+20100205220245_remove_event_updated_at_from_account_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100205220245_remove_event_updated_at_from_account_users.rb
+END
+20091223020128_create_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091223020128_create_accounts.rb
+END
+20100120053304_add_bill_amount_to_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100120053304_add_bill_amount_to_accounts.rb
+END
+20091216052351_create_plans.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/1/trunk/db/migrate/20091216052351_create_plans.rb
+END
+20100205220246_add_event_updated_at_to_backpack_reminders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100205220246_add_event_updated_at_to_backpack_reminders.rb
+END
+20091223210518_add_next_bill_date_to_account.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091223210518_add_next_bill_date_to_account.rb
+END
+20091230051957_remove_processed_at_from_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/reveille/!svn/ver/3/trunk/db/migrate/20091230051957_remove_processed_at_from_users.rb
+END
+20100205010329_add_event_updated_at_to_account_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/reveille/!svn/ver/4/trunk/db/migrate/20100205010329_add_event_updated_at_to_account_users.rb
+END

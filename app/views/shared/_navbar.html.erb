@@ -1,0 +1,14 @@
+<% @user = User.find(current_user()) %>
+<div id="navbar">
+	<div id="navcontrols">
+	<ul id="tab_links">
+		<%= tab_for("Schedule", "/reveille/reminders") %>
+	</ul>
+	<ul id="account_links">
+		<li><!-- Account selector goes here --></li>
+		<%= tab_for("Settings", "/reveille/account") %>
+		<li><%= link_to("Logout", :controller => "logout") %></li>
+	</ul>
+	<ul class="clear"></ul>
+	</div>
+</div>

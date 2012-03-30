@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  couponcode: MyString
+  account_id: 1
+
+two:
+  couponcode: MyString
+  account_id: 1

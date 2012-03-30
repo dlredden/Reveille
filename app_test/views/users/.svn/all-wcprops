@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/reveille/!svn/ver/1/trunk/app/views/users
+END
+signup.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/reveille/!svn/ver/4/trunk/app/views/users/signup.html.erb
+END
+_change_password.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_change_password.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/reveille/!svn/ver/1/trunk/app/views/users/index.html.erb
+END
+cancel_reset_password.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/reveille/!svn/ver/4/trunk/app/views/users/cancel_reset_password.js.rjs
+END
+login.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/reveille/!svn/ver/4/trunk/app/views/users/login.html.erb
+END
+_form_error.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_form_error.html.erb
+END
+_display_reminders.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_display_reminders.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/reveille/!svn/ver/1/trunk/app/views/users/show.html.erb
+END
+_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_details.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/reveille/!svn/ver/1/trunk/app/views/users/edit.html.erb
+END
+reset_password_form.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/reveille/!svn/ver/4/trunk/app/views/users/reset_password_form.js.rjs
+END
+_reset_password_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_reset_password_form.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/reveille/!svn/ver/1/trunk/app/views/users/new.html.erb
+END
+_login_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_login_form.html.erb
+END
+_form_success.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/4/trunk/app/views/users/_form_success.html.erb
+END
+password_update.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/4/trunk/app/views/users/password_update.js.rjs
+END
+reset_password.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/reveille/!svn/ver/4/trunk/app/views/users/reset_password.js.rjs
+END
+password_update.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/reveille/!svn/ver/4/trunk/app/views/users/password_update.html.erb
+END

@@ -1,0 +1,54 @@
+8
+
+dir
+2
+http://odeubu1.myvnc.com/svn/reveille/trunk/lib/daemons
+http://odeubu1.myvnc.com/svn/reveille
+
+
+
+2009-12-23T03:16:58.545754Z
+1
+dlredden
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+604b9625-c81f-47cb-8587-30735df8311b
+
+reminder.rb
+file
+3
+
+
+
+2009-12-30T07:23:42.000000Z
+943598f93a3f99c2b03ce757ebf7a0aa
+2010-01-18T20:25:49.949849Z
+3
+dlredden
+has-props
+
+reminder_ctl
+file
+
+
+
+
+2009-12-23T03:37:20.000000Z
+e993182fc64d09134636e3e6fde4e4da
+2009-12-23T03:16:58.545754Z
+1
+dlredden
+has-props
+

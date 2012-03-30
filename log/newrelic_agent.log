@@ -1,0 +1,438 @@
+# Logfile created on Tue Feb 28 21:13:17 +0000 2012 by logger.rb
+[02/28/12 21:13:17 +0000 WikidLabs (6675)] INFO : Dispatcher: passenger
+[02/28/12 21:13:17 +0000 WikidLabs (6675)] INFO : Application: Reveille
+[02/28/12 21:13:17 +0000 WikidLabs (6675)] INFO : Connecting workers after forking.
+[02/28/12 21:13:17 +0000 WikidLabs (6675)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 6675
+[02/28/12 21:13:17 +0000 WikidLabs (6675)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[02/28/12 21:13:18 +0000 WikidLabs (7180)] INFO : Starting the worker thread in 7180 after forking.
+[02/28/12 21:13:28 +0000 WikidLabs (7180)] INFO : Resolved collector.newrelic.com to 204.93.223.153
+[02/28/12 21:13:28 +0000 WikidLabs (7180)] INFO : Resolved collector-8.newrelic.com to 204.93.223.142
+[02/28/12 21:13:28 +0000 WikidLabs (7180)] INFO : Reporting performance data every 60 seconds.
+[02/28/12 21:39:15 +0000 WikidLabs (8522)] INFO : Dispatcher: passenger
+[02/28/12 21:39:15 +0000 WikidLabs (8522)] INFO : Application: Reveille
+[02/28/12 21:39:15 +0000 WikidLabs (8522)] INFO : Connecting workers after forking.
+[02/28/12 21:39:15 +0000 WikidLabs (8522)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 8522
+[02/28/12 21:39:15 +0000 WikidLabs (8522)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[02/28/12 21:39:15 +0000 WikidLabs (9035)] INFO : Starting the worker thread in 9035 after forking.
+[02/28/12 21:39:25 +0000 WikidLabs (9035)] INFO : Resolved collector.newrelic.com to 204.93.223.153
+[02/28/12 21:39:25 +0000 WikidLabs (9035)] INFO : Resolved collector-8.newrelic.com to 204.93.223.142
+[02/28/12 21:39:26 +0000 WikidLabs (9035)] INFO : Reporting performance data every 60 seconds.
+[02/29/12 05:58:31 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 05:58:36 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 07:01:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 07:01:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:14:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:14:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:52:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:52:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:56:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:56:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:59:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 14:59:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 18:55:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 18:55:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 19:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 19:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 20:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 20:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 22:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[02/29/12 22:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 12:41:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 12:41:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 14:02:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 14:02:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 14:56:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 14:56:27 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 15:00:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 15:00:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 15:58:29 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 15:58:30 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 16:55:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 16:55:27 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 17:58:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 17:58:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 18:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 18:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 19:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 19:57:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 20:56:27 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/01/12 20:56:27 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 01:08:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 01:08:31 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 18:56:30 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 18:56:35 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:12:30 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:12:31 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:33:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:33:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:34:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:34:26 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:42:30 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/02/12 22:42:35 +0000 WikidLabs (9035)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/04/12 17:45:52 +0000 WikidLabs (27559)] INFO : Dispatcher: passenger
+[03/04/12 17:45:52 +0000 WikidLabs (27559)] INFO : Application: Reveille
+[03/04/12 17:45:52 +0000 WikidLabs (27559)] INFO : Connecting workers after forking.
+[03/04/12 17:45:52 +0000 WikidLabs (27559)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 27559
+[03/04/12 17:45:52 +0000 WikidLabs (27559)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/04/12 17:45:53 +0000 WikidLabs (28070)] INFO : Starting the worker thread in 28070 after forking.
+[03/04/12 17:46:03 +0000 WikidLabs (28070)] INFO : Resolved collector.newrelic.com to 204.93.223.153
+[03/04/12 17:46:03 +0000 WikidLabs (28070)] INFO : Resolved collector-8.newrelic.com to 204.93.223.142
+[03/04/12 17:46:03 +0000 WikidLabs (28070)] INFO : Reporting performance data every 60 seconds.
+[03/04/12 19:56:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/04/12 19:56:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/05/12 13:29:15 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/05/12 13:29:15 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/05/12 20:57:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/05/12 20:57:13 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/05/12 23:57:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/05/12 23:57:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/06/12 03:57:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/06/12 03:57:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/06/12 19:57:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/06/12 19:57:14 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 03:56:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 04:18:43 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/07/12 10:42:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 10:42:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 18:58:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 18:58:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 21:58:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/07/12 21:58:13 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 06:16:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 06:16:06 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 14:32:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 14:32:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 14:56:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 14:56:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 15:59:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 15:59:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 18:56:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 18:56:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 19:58:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 19:58:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 21:57:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/08/12 21:57:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 04:56:06 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 04:56:07 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 05:18:23 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/09/12 11:30:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 11:30:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 14:46:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 14:46:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 17:56:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 17:56:14 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 19:56:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 19:56:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 21:00:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 21:00:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/09/12 22:25:22 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/10/12 01:33:00 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/10/12 01:59:41 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/10/12 02:13:38 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/10/12 03:02:27 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/10/12 03:12:35 +0000 WikidLabs (28070)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/10/12 04:37:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:37:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:38:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:38:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:39:06 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:39:06 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:40:09 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:40:14 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:41:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:41:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:42:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:42:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:43:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:43:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:44:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:44:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:45:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:45:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:46:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:46:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:47:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:47:05 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:48:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:48:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:49:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:49:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:50:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:50:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:51:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:51:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:52:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:52:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:53:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:53:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:54:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:54:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:56:07 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:56:08 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:57:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:57:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:58:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:58:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:59:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 04:59:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:00:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:00:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:01:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:01:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:02:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:02:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:03:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:03:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:04:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:04:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:05:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:05:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:06:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:06:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:07:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:07:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:08:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:08:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:09:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:09:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:10:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:10:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:11:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:11:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:12:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:12:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:13:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:13:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:14:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:14:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:15:03 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/10/12 05:15:04 +0000 WikidLabs (28070)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/12/12 07:12:22 +0000 WikidLabs (31141)] INFO : Dispatcher: passenger
+[03/12/12 07:12:22 +0000 WikidLabs (31141)] INFO : Application: Reveille
+[03/12/12 07:12:22 +0000 WikidLabs (31141)] INFO : Connecting workers after forking.
+[03/12/12 07:12:22 +0000 WikidLabs (31141)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 31141
+[03/12/12 07:12:22 +0000 WikidLabs (31141)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/12/12 07:12:23 +0000 WikidLabs (31643)] INFO : Starting the worker thread in 31643 after forking.
+[03/12/12 07:12:34 +0000 WikidLabs (31643)] INFO : Resolved collector.newrelic.com to 204.93.223.153
+[03/12/12 07:12:34 +0000 WikidLabs (31643)] INFO : Resolved collector-8.newrelic.com to 204.93.223.142
+[03/12/12 07:12:34 +0000 WikidLabs (31643)] INFO : Reporting performance data every 60 seconds.
+[03/12/12 12:01:39 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/12/12 12:01:44 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/12/12 20:55:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/12/12 20:55:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/14/12 22:54:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/14/12 22:54:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/15/12 20:46:39 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/15/12 20:46:39 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 04:49:36 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 04:49:37 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 14:55:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 14:55:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 22:21:34 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 22:21:34 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 23:55:40 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/16/12 23:55:45 +0000 WikidLabs (31643)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/18/12 14:01:47 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: Connection timed out - connect(2)
+[03/18/12 14:02:55 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: Connection timed out - connect(2)
+[03/18/12 14:06:35 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: No route to host - connect(2)
+[03/18/12 14:06:38 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: No route to host - connect(2)
+[03/18/12 14:07:46 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: No route to host - connect(2)
+[03/18/12 14:13:20 +0000 WikidLabs (31643)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/18/12 14:13:37 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: No route to host - connect(2)
+[03/18/12 14:18:46 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: No route to host - connect(2)
+[03/18/12 14:23:28 +0000 WikidLabs (31643)] WARN : Timed out trying to post data to New Relic (timeout = 120 seconds)
+[03/18/12 14:24:55 +0000 WikidLabs (31643)] WARN : Disabling serialization: Recoverable error connecting to the server: Connection timed out - connect(2)
+[03/19/12 13:08:52 +0000 WikidLabs (19897)] INFO : Dispatcher: passenger
+[03/19/12 13:08:52 +0000 WikidLabs (19897)] INFO : Application: Reveille
+[03/19/12 13:08:52 +0000 WikidLabs (19897)] INFO : Connecting workers after forking.
+[03/19/12 13:08:52 +0000 WikidLabs (19897)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 19897
+[03/19/12 13:08:52 +0000 WikidLabs (19897)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/20/12 04:05:23 +0000 WikidLabs (21940)] INFO : Dispatcher: passenger
+[03/20/12 04:05:23 +0000 WikidLabs (21940)] INFO : Application: Reveille
+[03/20/12 04:05:23 +0000 WikidLabs (21940)] INFO : Connecting workers after forking.
+[03/20/12 04:05:23 +0000 WikidLabs (21940)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 21940
+[03/20/12 04:05:23 +0000 WikidLabs (21940)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/21/12 07:34:22 +0000 WikidLabs (24230)] INFO : Dispatcher: passenger
+[03/21/12 07:34:22 +0000 WikidLabs (24230)] INFO : Application: Reveille
+[03/21/12 07:34:22 +0000 WikidLabs (24230)] INFO : Connecting workers after forking.
+[03/21/12 07:34:22 +0000 WikidLabs (24230)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 24230
+[03/21/12 07:34:22 +0000 WikidLabs (24230)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/21/12 10:24:49 +0000 WikidLabs (24798)] INFO : Dispatcher: passenger
+[03/21/12 10:24:49 +0000 WikidLabs (24798)] INFO : Application: Reveille
+[03/21/12 10:24:49 +0000 WikidLabs (24798)] INFO : Connecting workers after forking.
+[03/21/12 10:24:49 +0000 WikidLabs (24798)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 24798
+[03/21/12 10:24:49 +0000 WikidLabs (24798)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/21/12 10:34:19 +0000 WikidLabs (25302)] INFO : Dispatcher: passenger
+[03/21/12 10:34:19 +0000 WikidLabs (25302)] INFO : Application: Reveille
+[03/21/12 10:34:19 +0000 WikidLabs (25302)] INFO : Connecting workers after forking.
+[03/21/12 10:34:19 +0000 WikidLabs (25302)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 25302
+[03/21/12 10:34:19 +0000 WikidLabs (25302)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/21/12 10:34:44 +0000 WikidLabs (25807)] INFO : Dispatcher: passenger
+[03/21/12 10:34:44 +0000 WikidLabs (25807)] INFO : Application: Reveille
+[03/21/12 10:34:44 +0000 WikidLabs (25807)] INFO : Connecting workers after forking.
+[03/21/12 10:34:44 +0000 WikidLabs (25807)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 25807
+[03/21/12 10:34:44 +0000 WikidLabs (25807)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/21/12 15:34:12 +0000 WikidLabs (26785)] INFO : Dispatcher: passenger
+[03/21/12 15:34:12 +0000 WikidLabs (26785)] INFO : Application: Reveille
+[03/21/12 15:34:12 +0000 WikidLabs (26785)] INFO : Connecting workers after forking.
+[03/21/12 15:34:12 +0000 WikidLabs (26785)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 26785
+[03/21/12 15:34:12 +0000 WikidLabs (26785)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/21/12 15:34:14 +0000 WikidLabs (27289)] INFO : Starting the worker thread in 27289 after forking.
+[03/21/12 15:34:35 +0000 WikidLabs (27289)] INFO : Resolved collector.newrelic.com to 204.93.223.153
+[03/21/12 15:34:38 +0000 WikidLabs (27289)] INFO : Resolved collector-8.newrelic.com to 204.93.223.142
+[03/21/12 15:34:38 +0000 WikidLabs (27289)] INFO : Reporting performance data every 60 seconds.
+[03/23/12 01:00:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/23/12 01:00:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/23/12 01:01:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/23/12 01:01:39 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/23/12 22:52:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/23/12 22:52:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:40:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:40:39 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:41:39 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:41:39 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:42:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:42:39 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:43:46 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:43:48 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:44:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/25/12 03:44:38 +0000 WikidLabs (27289)] WARN : Disabling serialization: Service unavailable (503): Service Unavailable
+[03/26/12 00:32:52 +0000 WikidLabs (31575)] INFO : Dispatcher: passenger
+[03/26/12 00:32:52 +0000 WikidLabs (31575)] INFO : Application: Reveille
+[03/26/12 00:32:52 +0000 WikidLabs (31575)] INFO : Connecting workers after forking.
+[03/26/12 00:32:52 +0000 WikidLabs (31575)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 31575
+[03/26/12 00:32:52 +0000 WikidLabs (31575)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/26/12 08:33:48 +0000 WikidLabs (443)] INFO : Dispatcher: passenger
+[03/26/12 08:33:48 +0000 WikidLabs (443)] INFO : Application: Reveille
+[03/26/12 08:33:48 +0000 WikidLabs (443)] INFO : Connecting workers after forking.
+[03/26/12 08:33:48 +0000 WikidLabs (443)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 443
+[03/26/12 08:33:48 +0000 WikidLabs (443)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/26/12 14:37:00 +0000 WikidLabs (1291)] INFO : Dispatcher: passenger
+[03/26/12 14:37:00 +0000 WikidLabs (1291)] INFO : Application: Reveille
+[03/26/12 14:37:00 +0000 WikidLabs (1291)] INFO : Connecting workers after forking.
+[03/26/12 14:37:00 +0000 WikidLabs (1291)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 1291
+[03/26/12 14:37:00 +0000 WikidLabs (1291)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/26/12 20:14:32 +0000 WikidLabs (2095)] INFO : Dispatcher: passenger
+[03/26/12 20:14:32 +0000 WikidLabs (2095)] INFO : Application: Reveille
+[03/26/12 20:14:32 +0000 WikidLabs (2095)] INFO : Connecting workers after forking.
+[03/26/12 20:14:32 +0000 WikidLabs (2095)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 2095
+[03/26/12 20:14:32 +0000 WikidLabs (2095)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/26/12 21:08:12 +0000 WikidLabs (2623)] INFO : Dispatcher: passenger
+[03/26/12 21:08:12 +0000 WikidLabs (2623)] INFO : Application: Reveille
+[03/26/12 21:08:12 +0000 WikidLabs (2623)] INFO : Connecting workers after forking.
+[03/26/12 21:08:12 +0000 WikidLabs (2623)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 2623
+[03/26/12 21:08:12 +0000 WikidLabs (2623)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 01:42:25 +0000 WikidLabs (3880)] INFO : Dispatcher: passenger
+[03/27/12 01:42:26 +0000 WikidLabs (3880)] INFO : Application: Reveille
+[03/27/12 01:42:26 +0000 WikidLabs (3880)] INFO : Connecting workers after forking.
+[03/27/12 01:42:26 +0000 WikidLabs (3880)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 3880
+[03/27/12 01:42:26 +0000 WikidLabs (3880)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 02:21:56 +0000 WikidLabs (4402)] INFO : Dispatcher: passenger
+[03/27/12 02:21:56 +0000 WikidLabs (4402)] INFO : Application: Reveille
+[03/27/12 02:21:56 +0000 WikidLabs (4402)] INFO : Connecting workers after forking.
+[03/27/12 02:21:56 +0000 WikidLabs (4402)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 4402
+[03/27/12 02:21:56 +0000 WikidLabs (4402)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 02:22:23 +0000 WikidLabs (4903)] INFO : Dispatcher: passenger
+[03/27/12 02:22:23 +0000 WikidLabs (4903)] INFO : Application: Reveille
+[03/27/12 02:22:23 +0000 WikidLabs (4903)] INFO : Connecting workers after forking.
+[03/27/12 02:22:23 +0000 WikidLabs (4903)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 4903
+[03/27/12 02:22:23 +0000 WikidLabs (4903)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 05:51:45 +0000 WikidLabs (5542)] INFO : Dispatcher: passenger
+[03/27/12 05:51:46 +0000 WikidLabs (5542)] INFO : Application: Reveille
+[03/27/12 05:51:46 +0000 WikidLabs (5542)] INFO : Connecting workers after forking.
+[03/27/12 05:51:46 +0000 WikidLabs (5542)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 5542
+[03/27/12 05:51:46 +0000 WikidLabs (5542)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 07:34:33 +0000 WikidLabs (6088)] INFO : Dispatcher: passenger
+[03/27/12 07:34:33 +0000 WikidLabs (6088)] INFO : Application: Reveille
+[03/27/12 07:34:33 +0000 WikidLabs (6088)] INFO : Connecting workers after forking.
+[03/27/12 07:34:33 +0000 WikidLabs (6088)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 6088
+[03/27/12 07:34:33 +0000 WikidLabs (6088)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 08:59:50 +0000 WikidLabs (6630)] INFO : Dispatcher: passenger
+[03/27/12 08:59:50 +0000 WikidLabs (6630)] INFO : Application: Reveille
+[03/27/12 08:59:50 +0000 WikidLabs (6630)] INFO : Connecting workers after forking.
+[03/27/12 08:59:50 +0000 WikidLabs (6630)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 6630
+[03/27/12 08:59:50 +0000 WikidLabs (6630)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 12:56:44 +0000 WikidLabs (7228)] INFO : Dispatcher: passenger
+[03/27/12 12:56:45 +0000 WikidLabs (7228)] INFO : Application: Reveille
+[03/27/12 12:56:45 +0000 WikidLabs (7228)] INFO : Connecting workers after forking.
+[03/27/12 12:56:45 +0000 WikidLabs (7228)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 7228
+[03/27/12 12:56:45 +0000 WikidLabs (7228)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 16:19:26 +0000 WikidLabs (8015)] INFO : Dispatcher: passenger
+[03/27/12 16:19:26 +0000 WikidLabs (8015)] INFO : Application: Reveille
+[03/27/12 16:19:26 +0000 WikidLabs (8015)] INFO : Connecting workers after forking.
+[03/27/12 16:19:26 +0000 WikidLabs (8015)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 8015
+[03/27/12 16:19:26 +0000 WikidLabs (8015)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 16:20:24 +0000 WikidLabs (8529)] INFO : Dispatcher: passenger
+[03/27/12 16:20:24 +0000 WikidLabs (8529)] INFO : Application: Reveille
+[03/27/12 16:20:24 +0000 WikidLabs (8529)] INFO : Connecting workers after forking.
+[03/27/12 16:20:24 +0000 WikidLabs (8529)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 8529
+[03/27/12 16:20:24 +0000 WikidLabs (8529)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 18:13:56 +0000 WikidLabs (9058)] INFO : Dispatcher: passenger
+[03/27/12 18:13:56 +0000 WikidLabs (9058)] INFO : Application: Reveille
+[03/27/12 18:13:56 +0000 WikidLabs (9058)] INFO : Connecting workers after forking.
+[03/27/12 18:13:56 +0000 WikidLabs (9058)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 9058
+[03/27/12 18:13:56 +0000 WikidLabs (9058)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 19:30:45 +0000 WikidLabs (9657)] INFO : Dispatcher: passenger
+[03/27/12 19:30:45 +0000 WikidLabs (9657)] INFO : Application: Reveille
+[03/27/12 19:30:45 +0000 WikidLabs (9657)] INFO : Connecting workers after forking.
+[03/27/12 19:30:45 +0000 WikidLabs (9657)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 9657
+[03/27/12 19:30:45 +0000 WikidLabs (9657)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/27/12 22:01:31 +0000 WikidLabs (10230)] INFO : Dispatcher: passenger
+[03/27/12 22:01:31 +0000 WikidLabs (10230)] INFO : Application: Reveille
+[03/27/12 22:01:31 +0000 WikidLabs (10230)] INFO : Connecting workers after forking.
+[03/27/12 22:01:31 +0000 WikidLabs (10230)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 10230
+[03/27/12 22:01:31 +0000 WikidLabs (10230)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 07:42:13 +0000 WikidLabs (11082)] INFO : Dispatcher: passenger
+[03/28/12 07:42:13 +0000 WikidLabs (11082)] INFO : Application: Reveille
+[03/28/12 07:42:13 +0000 WikidLabs (11082)] INFO : Connecting workers after forking.
+[03/28/12 07:42:13 +0000 WikidLabs (11082)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 11082
+[03/28/12 07:42:13 +0000 WikidLabs (11082)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 07:42:43 +0000 WikidLabs (11585)] INFO : Dispatcher: passenger
+[03/28/12 07:42:43 +0000 WikidLabs (11585)] INFO : Application: Reveille
+[03/28/12 07:42:43 +0000 WikidLabs (11585)] INFO : Connecting workers after forking.
+[03/28/12 07:42:43 +0000 WikidLabs (11585)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 11585
+[03/28/12 07:42:43 +0000 WikidLabs (11585)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 08:43:09 +0000 WikidLabs (12106)] INFO : Dispatcher: passenger
+[03/28/12 08:43:09 +0000 WikidLabs (12106)] INFO : Application: Reveille
+[03/28/12 08:43:09 +0000 WikidLabs (12106)] INFO : Connecting workers after forking.
+[03/28/12 08:43:09 +0000 WikidLabs (12106)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 12106
+[03/28/12 08:43:09 +0000 WikidLabs (12106)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 10:15:30 +0000 WikidLabs (13270)] INFO : Dispatcher: passenger
+[03/28/12 10:15:30 +0000 WikidLabs (13270)] INFO : Application: Reveille
+[03/28/12 10:15:30 +0000 WikidLabs (13270)] INFO : Connecting workers after forking.
+[03/28/12 10:15:30 +0000 WikidLabs (13270)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 13270
+[03/28/12 10:15:30 +0000 WikidLabs (13270)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 14:12:01 +0000 WikidLabs (14490)] INFO : Dispatcher: passenger
+[03/28/12 14:12:01 +0000 WikidLabs (14490)] INFO : Application: Reveille
+[03/28/12 14:12:01 +0000 WikidLabs (14490)] INFO : Connecting workers after forking.
+[03/28/12 14:12:01 +0000 WikidLabs (14490)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 14490
+[03/28/12 14:12:01 +0000 WikidLabs (14490)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 19:07:40 +0000 WikidLabs (15187)] INFO : Dispatcher: passenger
+[03/28/12 19:07:40 +0000 WikidLabs (15187)] INFO : Application: Reveille
+[03/28/12 19:07:40 +0000 WikidLabs (15187)] INFO : Connecting workers after forking.
+[03/28/12 19:07:40 +0000 WikidLabs (15187)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 15187
+[03/28/12 19:07:40 +0000 WikidLabs (15187)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 20:01:05 +0000 WikidLabs (15746)] INFO : Dispatcher: passenger
+[03/28/12 20:01:05 +0000 WikidLabs (15746)] INFO : Application: Reveille
+[03/28/12 20:01:05 +0000 WikidLabs (15746)] INFO : Connecting workers after forking.
+[03/28/12 20:01:05 +0000 WikidLabs (15746)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 15746
+[03/28/12 20:01:05 +0000 WikidLabs (15746)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/28/12 21:13:20 +0000 WikidLabs (16300)] INFO : Dispatcher: passenger
+[03/28/12 21:13:20 +0000 WikidLabs (16300)] INFO : Application: Reveille
+[03/28/12 21:13:20 +0000 WikidLabs (16300)] INFO : Connecting workers after forking.
+[03/28/12 21:13:20 +0000 WikidLabs (16300)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 16300
+[03/28/12 21:13:20 +0000 WikidLabs (16300)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/29/12 08:15:53 +0000 WikidLabs (17333)] INFO : Dispatcher: passenger
+[03/29/12 08:15:53 +0000 WikidLabs (17333)] INFO : Application: Reveille
+[03/29/12 08:15:53 +0000 WikidLabs (17333)] INFO : Connecting workers after forking.
+[03/29/12 08:15:53 +0000 WikidLabs (17333)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 17333
+[03/29/12 08:15:53 +0000 WikidLabs (17333)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/29/12 18:59:30 +0000 WikidLabs (3175)] INFO : Dispatcher: passenger
+[03/29/12 18:59:30 +0000 WikidLabs (3175)] INFO : Application: Reveille
+[03/29/12 18:59:30 +0000 WikidLabs (3175)] INFO : Connecting workers after forking.
+[03/29/12 18:59:30 +0000 WikidLabs (3175)] INFO : New Relic Ruby Agent 3.3.2 Initialized: pid = 3175
+[03/29/12 18:59:30 +0000 WikidLabs (3175)] INFO : Agent Log at /var/www/reveille/log/newrelic_agent.log
+[03/29/12 18:59:31 +0000 WikidLabs (3681)] INFO : Starting the worker thread in 3681 after forking.
+[03/29/12 18:59:41 +0000 WikidLabs (3681)] INFO : Resolved collector.newrelic.com to 204.93.223.153
+[03/29/12 18:59:41 +0000 WikidLabs (3681)] INFO : Resolved collector-8.newrelic.com to 204.93.223.142
+[03/29/12 18:59:41 +0000 WikidLabs (3681)] INFO : Reporting performance data every 60 seconds.

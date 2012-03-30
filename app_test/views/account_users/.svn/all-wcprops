@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/reveille/!svn/ver/1/trunk/app/views/account_users
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/reveille/!svn/ver/1/trunk/app/views/account_users/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/1/trunk/app/views/account_users/index.html.erb
+END
+destroy.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/reveille/!svn/ver/4/trunk/app/views/account_users/destroy.js.rjs
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/reveille/!svn/ver/1/trunk/app/views/account_users/new.html.erb
+END
+invite_user.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/reveille/!svn/ver/4/trunk/app/views/account_users/invite_user.js.rjs
+END
+_invite_user.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/reveille/!svn/ver/4/trunk/app/views/account_users/_invite_user.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/reveille/!svn/ver/1/trunk/app/views/account_users/show.html.erb
+END
+change_user_role.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/reveille/!svn/ver/4/trunk/app/views/account_users/change_user_role.js.rjs
+END
+_details.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/reveille/!svn/ver/4/trunk/app/views/account_users/_details.html.erb
+END
+change_user_role.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/reveille/!svn/ver/4/trunk/app/views/account_users/change_user_role.html.erb
+END

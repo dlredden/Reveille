@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/reveille/!svn/ver/1/trunk/test/functional
+END
+plan_limits_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/reveille/!svn/ver/1/trunk/test/functional/plan_limits_controller_test.rb
+END
+account_users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/reveille/!svn/ver/1/trunk/test/functional/account_users_controller_test.rb
+END
+plans_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/reveille/!svn/ver/1/trunk/test/functional/plans_controller_test.rb
+END
+backpack_accounts_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/reveille/!svn/ver/1/trunk/test/functional/backpack_accounts_controller_test.rb
+END
+accounts_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/reveille/!svn/ver/1/trunk/test/functional/accounts_controller_test.rb
+END
+mailinglists_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/reveille/!svn/ver/3/trunk/test/functional/mailinglists_controller_test.rb
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/reveille/!svn/ver/1/trunk/test/functional/users_controller_test.rb
+END
+roles_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/reveille/!svn/ver/1/trunk/test/functional/roles_controller_test.rb
+END
+backpack_reminders_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/reveille/!svn/ver/1/trunk/test/functional/backpack_reminders_controller_test.rb
+END
+home_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/reveille/!svn/ver/1/trunk/test/functional/home_controller_test.rb
+END

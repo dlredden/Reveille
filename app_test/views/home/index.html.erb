@@ -1,0 +1,112 @@
+<div id="top" class="page-wrap">
+	<h2>Make Your Backpack Calandar Work Smarter</h2>
+	<h3>spend less time managing your schedule, and more time getting things done.</h3>
+</div>
+
+<div id="midbar">
+	<div id="mid" class="page-wrap">
+		<div id="desc" class="left">
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("reminder.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Reminders on your terms</h2>
+					Get as many reminders for your Backpack events as you want, exactly when you want them. Never be late for an event again.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("automated.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Reminder hashtags will save time</h2>
+					Use special hashtags in your events to automate reminder creation in Backpack. Saves time and headaches over manual reminder management.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("calendar.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Your personalized agenda</h2>
+					Reveille provides a simple agenda view of all your important events to help you plan ahead and make the most of your time.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("rss.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Better than subscriptions</h2>
+					Calendar subscriptions are read-only. We break down the barrier, allowing you interact with your Backpack calendars by integrating directly via API's. 
+				</div>
+				<div class="clear"></div>
+			</div>
+			<%= link_to(image_tag("plans-pricing.png", :class => "plans-link"), "reveille/signup") %>
+		</div>
+		<div id="howto" class="right">
+			<% swf_tag("Flash-Tour.swf", :size => "420x400") do %>
+				<%= image_tag("reveille-screenshot.png") %>
+			<% end %>
+			<div class="faq-wide">
+				<h3 class="faq">I'm not sure what Backpack is</h3>
+				<p>Backpack is a web application created by 37signals. As stated on their website, Backpack is a "better way to organize your business". You can share information, and keep your documents, discussions, and schedules in one place. <%= link_to("Go to the Backpack site for more information", "http://backpackit.com/?referrer=WIKIDLABS", :class => "standard") %></p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="integrations">
+			<div class="left">
+				<h2>Reveille Integrates With ...</h2>
+				<div>
+					<%= link_to(image_tag("logo_backpack-full.png"), "http://backpackit.com/?referrer=WIKIDLABS") %>
+				</div>
+			</div>
+			<div class="right" id="integrations-coming-soon">
+			<%= image_tag("logo_basecamp-full-faded.png") %><%= image_tag("logo_highrise-full-faded.png") %><br><%= image_tag("google-cal-logo-faded.png") %>
+			</div>
+			<div class="clear"></div>
+		</div>
+		</div>
+</div>
+
+<div id="faq-bar">
+	<div id="faq" class="page-wrap">
+		<div id="what-is-backpack" class="left column">
+			<h3 class="faq">Benefits of time management</h3>
+			<p class="quotation">"Time is what we want most, but what we use worst."<br>-William Penn</p>
+			<p>Knowing how we spend our time helps make us more productive, and lets us know when we need to find balance. We believe Reveille will help you manage your work time, so you can have more time to invest in yourself and your family.</p>
+		</div>
+		<div id="why-build-reveille" class="left column">
+			<h3 class="faq">What inspired Reveille?</h3>
+			<p>We use 37signal's <%= link_to("Backpack", "http://backpackit.com/?referrer=WIKIDLABS", :class => "standard") %> and <%= link_to("Basecamp", "http://basecamphq.com/?referrer=WIKIDLABS", :class => "standard" ) %> to keep our schedules and projects organized, and we wanted a simple way to see all of our calendar and task data in one place.  So, we set out to solve our own problem.  We thought maybe there were other teams out there with the same problem so we decided to make Reveille available to everyone.</p>
+		</div>
+		<div id="how-much-cost" class="left column">
+			<h3 class="faq">Other Notable Features</h3>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("secure.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Security</h2>
+					Keeping your data secure is very important to us. Every account features encrypted connections to your browser.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="features">
+				<div class="feature-img">
+					<%= image_tag("internet-cloud.png") %>
+				</div>
+				<div class="feature-desc">
+					<h2>Web Based</h2>
+					You can see your schedule from any standard browser or mobile device.
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>

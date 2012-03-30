@@ -1,0 +1,20 @@
+if @error.nil?
+	if flash[:create_form_error]
+		# Cleanup
+		page.remove 'form_error'
+		flash[:create_form_error] = false
+	end
+	page.replace 'sub-form', :partial => 'form_success'
+else
+	# Was there already an error?
+	if flash[:create_form_error]
+		# Update old error message
+		page.replace 'form_error', :partial=>'form_error', :object=>@mailinglist
+	else
+		# Create error dialog
+		page.insert_html :bottom, 'sub-form', {:partial => 'form_error', :object=>@mailinglist}
+	end
+
+	flash[:create_form_error] = true
+	page.visual_effect :highlight, 'form_error', :duration => 2, :startcolor => '#FF0000', :endcolor => '#133479'
+end

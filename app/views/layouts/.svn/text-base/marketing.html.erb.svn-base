@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Simple time management tools For Backpack: Reveille<%= " > #{@page_title}" if @page_title %></title>
+		
+		<meta name="author" content="Wikid Labs" />
+		<meta name="copyright" content="Copyright 2009, Wikid Labs" />
+		<meta name="version" content="1.0" />
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="Reveille, Wikid Labs, Backpack, Calendar, Reminder, Automatic " />
+		<meta name="description" content="Reveille enables flexible calendar reminders for 37signals Backpack users" />
+		<meta name="revisit-after" content="2 days" />
+		<meta name="robots" content="follow,index" />
+		<link rel="shortcut icon" href="<%= root_url %>favicon.ico" />
+
+		<%= stylesheet_link_tag("main") %>
+		
+		<%= javascript_include_tag(:defaults) %>
+	</head>
+	
+	<body>
+		<div id="content">
+			<div id="mktg">
+				<div id="topbar">
+					<div id="nav" class="page-wrap">
+					<div class="left">
+						<a href="/reveille"><h1 id="logo">Reveille</h1></a>
+					</div>
+					<div class="right">
+						<ul>
+							<li><%= link_to "Plans & Pricing", "/reveille/signup"%></li>
+							<li><%= link_to "Login", "/reveille/login"%></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					</div>
+				</div>
+
+			<%= yield %>
+			
+			<div>
+				 <div id="community-connection" class="page-wrap">
+				 	<ul class="inline-list">
+				 		<li><%= link_to(image_tag("twitter.png") + "Follow us on Twitter", "http://twitter.com/wikidlabs") %></li>
+						<li><%= link_to(image_tag("rss-feed.png") + "Read our Blog", "http://wikidlabs.com/blog/") %></li>
+						<li><%= link_to(image_tag("email-letter.png") + "hello@wikidlabs.com", "mailto:hello@wikidlabs.com") %></li>
+					</ul>
+				 </div>
+			</div>
+			
+			<div id="footer">
+				<div id="foot" class="page-wrap">
+					<div>
+						<p class="disclosure">The names and logos for <%= link_to "Backpack", "http://backpackit.com/?referrer=WIKIDLABS"%> and <%= link_to "37signals", "http://37signals.com"%> are registered trademarks of 37signals, LLC. </p>
+						<p class="disclosure">The names and logos for <%= link_to "Reveille", "http://wikidlabs.com/reveille/"%> and <%= link_to "Wikid Labs", "http://wikidlabs.com"%> are trademarks of <%= link_to "Wikid Labs", "http://wikidlabs.com"%>, LLC.</strong></p>
+						<p class="disclosure">All site content is &copy;2010 Wikid Labs, LLC. All rights reserved.</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+	</body>
+</html>

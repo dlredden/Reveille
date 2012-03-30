@@ -1,0 +1,345 @@
+body
+{
+	background: #e0e0e0;
+}
+
+div#logo
+{
+	width: 215px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+div.main-app-container
+{
+	background: white;
+	width: 700px;
+	min-height: 200px;
+	margin: 0px auto;
+	border: solid #c0c0c0 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 30px;
+}
+
+div.container-wrapper
+{
+	padding: 15px 35px 15px 35px;
+}
+
+div.acct-section-wrapper
+{
+	border-bottom: 1px #c0c0c0 dashed;
+	margin-bottom: 25px;
+}
+
+div.container-heading
+{
+	background-color: #cddeff;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	padding: 10px;
+	font-family: Verdana;
+}
+
+h1.container-heading
+{
+	font-size: 1.1em;
+	font-family: Verdana;
+	display: inline;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+h2.container-heading
+{
+	font-weight: bold;
+	font-size: 1em;
+	color: #333333;
+	padding-bottom: 15px;
+	margin-left: -5px;
+}
+
+div#login
+{
+	background: white;
+	width: 400px;
+	margin: 0px auto;
+	border: solid #c0c0c0 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 25px 25px 25px 25px;
+	margin-top: 15px;
+}
+
+div#login input
+{
+	font-size: 1.1em;
+	padding: 3px;
+}
+
+div#login input[type=submit]
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+
+
+div#login p
+{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: .9em;
+	margin: 10px 0px;
+}
+
+div#login p.notice
+{
+	font-weight: normal;
+	font-size: .8em;
+	padding: 5px;
+	color: white;
+	background: red;
+	
+}
+
+div#login-help
+{
+	margin-top: 15px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: .8em;
+}
+
+div#login-help a:link, div#login-help a:visited
+{
+	color: #1B4A8E;
+}
+
+div#navbar
+{
+	position: relative;
+	padding: 10px 0px 10px 0px;
+	background-color: #3B6ECF;
+	text-align: right;
+	color: white;
+	font-family: Verdana;
+	font-size: .8em;
+}
+
+div#navcontrols
+{
+	width: 700px;
+	margin: 0px auto;
+	padding-top: 8px;
+}
+
+ul#tab_links
+{
+	float: left;
+	text-align: left;
+}
+
+ul#account_links
+{
+	float: right;
+}
+
+div#navcontrols a
+{
+	color: white;
+	font-family: Verdana;
+}
+
+div#navcontrols ul
+{
+	display: block;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+div#navcontrols ul li
+{
+	display: inline;
+	margin: 0px 10px 10px 10px;
+}
+
+div#navcontrols ul a.selected:link,
+div#navcontrols ul a.selected:visited
+{
+	background-color: #e0e0e0;
+	color: #333333;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 3px 8px 10px;
+	text-decoration: none;
+}
+
+.instructions
+{
+	font-size: .9em;
+	font-style: italic;
+	text-decoration: none;
+	color: #666666;
+}
+
+div#account-container
+{
+	width: 700px;
+	font-family: Verdana;
+	font-size: .8em;
+}
+
+div#account-container table tr
+{
+	padding-bottom: 10px;
+}
+
+div#account-container table th
+{
+	vertical-align: top;
+	width: 120px;
+	font-size: .9em;
+}
+
+div#account-container table td
+{
+	font-weight: bold;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+.in-place-edit
+{
+	cursor: pointer;
+}
+
+span.in-place-edit
+{
+	background-color: #f0f0f0;
+	padding: 3px;
+}
+
+form.inplaceeditor-form input
+{
+	margin-right: 8px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+form.inplaceeditor-form input[type=text]
+{
+	font-weight: bold;
+}
+
+form.inplaceeditor-form a
+{
+	text-decoration: none;
+	color: red;
+	font-weight: normal;
+}
+
+div.reveille-reminder-tag
+{
+	float: left;
+	font-size: .7em;
+	margin-left: 12px;
+	font-style: italic;
+}
+
+div.reveille-reminder
+{
+	background-color: #C0C0C0;
+	color: white;
+	font-family: Verdana;
+	font-size: .6em;
+	padding: 2px 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+div.backpack-calendar
+{
+	margin-left:10px;
+	padding: 0px 0px 20px 0px;
+}
+
+div.calendar-event-dayofweek
+{
+	margin: 0px 6px 0px 6px;
+	color: white;
+	background-color: #BFBF99;
+	font-size: .3em;
+}
+
+div.calendar-event-day
+{
+	font-family: Lucida Grande, Arial, sans-serif;
+	font-size: 2em;
+	border: solid 1px #BFBF99;
+	padding: 0px 2px;
+	background-color: #FFFFCC;
+	float: left;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+div.calendar-event-title
+{
+	margin-left: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+div.calendar-date-title
+{
+	margin-top: 5px;
+	font-family: Verdana;
+	font-size: 1.2em;
+	padding: 20px 10px 5px 0px;
+}
+
+div.calendar-event
+{
+	background-color: #EEEEEE;
+	color: #222222;
+	font-family: Verdana;
+	font-size: 1em;
+	padding: 6px 0px 6px 6px;
+	margin: 5px 15px 0px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.account_user_admin a
+{
+	text-decoration: none;
+}
+
+div#app-footer
+{
+	margin: 0px auto;
+	width: 650px;
+	color: #666666;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: .7em;
+	padding: 5px 5px 20px 5px;
+}
+
+div#app-footer a:link, a:visited
+{
+	color: #666666
+}
+
+div#app-footer p
+{
+	margin: 3px 0px;
+}
+
+div#cancel_account a:link, div#cancel_account a:visited, a.action-link:visited, a.action-link:link
+{
+	color: red;
+	font-size: .9em;
+}

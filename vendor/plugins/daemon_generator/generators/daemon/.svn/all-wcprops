@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/reveille/!svn/ver/1/trunk/vendor/plugins/daemon_generator/generators/daemon
+END
+daemon_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/reveille/!svn/ver/1/trunk/vendor/plugins/daemon_generator/generators/daemon/daemon_generator.rb
+END
